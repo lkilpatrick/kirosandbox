@@ -38,6 +38,31 @@ export class SpeciesService {
   }
   
   /**
+   * Get all fishable species (for browsing)
+   */
+  getFishableSpecies(): Species[] {
+    return this.species.filter(s => {
+      // Must have fishing-related data (bag limit indicates it's fishable)
+      return s.cdfw_bag_limit !== undefined && s.cdfw_bag_limit !== null;
+    });
+  }
+
+  /**
+   * Check if a species is currently in season
+   */
+  isInSeason(species: Species, month?: number): boolean {
+    const currentMonth = month ?? new Date().getMonth() + 1;
+    
+    // If no season data, it's not seasonal
+    if (!species.months_best || species.months_best.length === 0) {
+      return false;
+    }
+    
+    // Check if current month is in the best months
+    return species.months_best.includes(currentMonth) || species.cdfw_always_open || false;
+  }
+
+  /**
    * Get species in season for current month
    * Only returns species that:
    * 1. Have a defined season (months_best array exists and has values)

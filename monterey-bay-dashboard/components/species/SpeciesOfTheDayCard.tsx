@@ -14,18 +14,18 @@ export function SpeciesOfTheDayCard() {
 
   useEffect(() => {
     const service = new SpeciesService();
-    const inSeasonSpecies = service.getSpeciesInSeason();
+    const allFishable = service.getFishableSpecies();
     
-    if (inSeasonSpecies.length > 0) {
-      setAllSpecies(inSeasonSpecies);
+    if (allFishable.length > 0) {
+      setAllSpecies(allFishable);
       const speciesOfDay = service.getSpeciesOfTheDay();
-      const dayIndex = inSeasonSpecies.findIndex(s => s.key === speciesOfDay.key);
-      setCurrentIndex(dayIndex >= 0 ? dayIndex : 0);
-      setSpecies(inSeasonSpecies[dayIndex >= 0 ? dayIndex : 0]);
+      const dayIndex = allFishable.findIndex(s => s.key === speciesOfDay.key);
+      const startIndex = dayIndex >= 0 ? dayIndex : 0;
+      setCurrentIndex(startIndex);
+      setSpecies(allFishable[startIndex]);
       
-      // Check season client-side to avoid hydration mismatch
-      const currentMonth = new Date().getMonth() + 1;
-      setIsInSeason(speciesOfDay?.months_best?.includes(currentMonth) || speciesOfDay?.cdfw_always_open || false);
+      // Check if this species is in season
+      setIsInSeason(service.isInSeason(allFishable[startIndex]));
     }
     
     setLoading(false);
@@ -37,8 +37,8 @@ export function SpeciesOfTheDayCard() {
     setCurrentIndex(nextIndex);
     setSpecies(allSpecies[nextIndex]);
     
-    const currentMonth = new Date().getMonth() + 1;
-    setIsInSeason(allSpecies[nextIndex]?.months_best?.includes(currentMonth) || allSpecies[nextIndex]?.cdfw_always_open || false);
+    const service = new SpeciesService();
+    setIsInSeason(service.isInSeason(allSpecies[nextIndex]));
   };
 
   const handlePrevious = () => {
@@ -47,8 +47,8 @@ export function SpeciesOfTheDayCard() {
     setCurrentIndex(prevIndex);
     setSpecies(allSpecies[prevIndex]);
     
-    const currentMonth = new Date().getMonth() + 1;
-    setIsInSeason(allSpecies[prevIndex]?.months_best?.includes(currentMonth) || allSpecies[prevIndex]?.cdfw_always_open || false);
+    const service = new SpeciesService();
+    setIsInSeason(service.isInSeason(allSpecies[prevIndex]));
   };
 
   if (loading) {
@@ -76,7 +76,7 @@ export function SpeciesOfTheDayCard() {
             <span className="text-5xl drop-shadow-lg">{species.emoji}</span>
             <div>
               <h2 className="text-2xl md:text-3xl font-bold text-white drop-shadow-md">Featured Species</h2>
-              <p className="text-sm text-blue-100">In season now • {currentIndex + 1} of {allSpecies.length}</p>
+              <p className="text-sm text-blue-100">{currentIndex + 1} of {allSpecies.length} species</p>
             </div>
           </div>
           
