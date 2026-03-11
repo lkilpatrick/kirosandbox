@@ -30,7 +30,7 @@ To further secure your API key:
 1. **Go to Google Cloud Console**:
    https://console.cloud.google.com/apis/credentials?project=montereydashboard
 
-2. **Find your API key**: `AIzaSyCIgZj9sGTVlG9_4Lsu9rI7gZVMumsQrto`
+2. **Find your API key** in the credentials list
 
 3. **Click "Edit" and add restrictions**:
    - **Application restrictions**: HTTP referrers

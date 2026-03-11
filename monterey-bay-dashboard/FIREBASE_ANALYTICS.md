@@ -10,7 +10,7 @@ Firebase is configured in `lib/firebase.ts` with your project credentials:
 
 - **Project ID**: montereydashboard
 - **Measurement ID**: G-83V49J0P14
-- **App ID**: 1:880796508508:web:06fcd38b698a2a5d29e199
+- **App ID**: (configured via environment variables)
 
 ## Tracked Events
 

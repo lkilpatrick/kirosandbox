@@ -14,9 +14,7 @@ To fully secure your Firebase API key, add restrictions in Google Cloud Console:
 
 ### Step 2: Find Your API Key
 
-Look for the API key: `AIzaSyCIgZj9sGTVlG9_4Lsu9rI7gZVMumsQrto`
-
-Or search for "Browser key (auto created by Firebase)"
+Look for "Browser key (auto created by Firebase)" in the credentials list
 
 ### Step 3: Click "Edit" (pencil icon)
 
