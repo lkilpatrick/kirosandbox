@@ -58,15 +58,16 @@ export class NDBCBuoyProvider implements WindProvider, SwellProvider {
 
   private async fetchLatestBuoyData(): Promise<NDBCStandardData> {
     try {
-      // Fetch standard meteorological data
-      const url = `${this.baseUrl}/${this.stationId}.txt`;
+      // Use API route to avoid CORS issues
+      const url = `/api/buoy?station=${this.stationId}`;
       const response = await fetch(url);
       
       if (!response.ok) {
-        throw new Error(`NDBC API error: ${response.status}`);
+        throw new Error(`Buoy API error: ${response.status}`);
       }
 
-      const text = await response.text();
+      const json = await response.json();
+      const text = json.data;
       const lines = text.trim().split('\n');
       
       // Skip header lines (first 2 lines)

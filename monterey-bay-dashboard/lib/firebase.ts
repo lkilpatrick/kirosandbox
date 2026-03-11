@@ -17,24 +17,33 @@ const firebaseConfig = {
   measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID || ""
 };
 
+// Check if Firebase config is valid
+const isFirebaseConfigured = firebaseConfig.apiKey && firebaseConfig.projectId && firebaseConfig.appId;
+
 // Initialize Firebase
-let app: FirebaseApp;
+let app: FirebaseApp | null = null;
 let analytics: Analytics | null = null;
 
-// Only initialize if not already initialized
-if (!getApps().length) {
-  app = initializeApp(firebaseConfig);
-} else {
-  app = getApps()[0];
-}
+// Only initialize if config is valid and not already initialized
+if (isFirebaseConfigured) {
+  if (!getApps().length) {
+    app = initializeApp(firebaseConfig);
+  } else {
+    app = getApps()[0];
+  }
 
-// Initialize Analytics only in browser and if supported
-if (typeof window !== 'undefined') {
-  isSupported().then((supported) => {
-    if (supported) {
-      analytics = getAnalytics(app);
-    }
-  });
+  // Initialize Analytics only in browser and if supported
+  if (typeof window !== 'undefined' && app) {
+    isSupported().then((supported) => {
+      if (supported && app) {
+        analytics = getAnalytics(app);
+      }
+    }).catch((error) => {
+      console.warn('Firebase Analytics not supported:', error);
+    });
+  }
+} else {
+  console.warn('Firebase not configured. Set environment variables to enable analytics.');
 }
 
 export { app, analytics };

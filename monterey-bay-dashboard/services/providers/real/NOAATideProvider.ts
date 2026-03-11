@@ -47,7 +47,7 @@ export class NOAATideProvider implements TideProvider {
       const beginDate = this.formatDate(date);
       const endDate = this.formatDate(new Date(date.getTime() + 48 * 60 * 60 * 1000));
       
-      const url = `${this.baseUrl}?` + new URLSearchParams({
+      const params = new URLSearchParams({
         begin_date: beginDate,
         end_date: endDate,
         station: stationId,
@@ -60,10 +60,12 @@ export class NOAATideProvider implements TideProvider {
         format: 'json'
       });
 
+      // Use API route to avoid CORS issues
+      const url = `/api/tide?${params.toString()}`;
       const response = await fetch(url);
       
       if (!response.ok) {
-        throw new Error(`NOAA API error: ${response.status}`);
+        throw new Error(`Tide API error: ${response.status}`);
       }
 
       const data: NOAAResponse = await response.json();
@@ -122,7 +124,7 @@ export class NOAATideProvider implements TideProvider {
       const endDate = this.formatDateTimeForAPI(new Date(date.getTime() + 24 * 60 * 60 * 1000));
       
       // Fetch hourly data
-      const hourlyUrl = `${this.baseUrl}?` + new URLSearchParams({
+      const hourlyParams = new URLSearchParams({
         begin_date: beginDate,
         end_date: endDate,
         station: stationId,
@@ -136,7 +138,7 @@ export class NOAATideProvider implements TideProvider {
       });
 
       // Fetch high/low data
-      const hiloUrl = `${this.baseUrl}?` + new URLSearchParams({
+      const hiloParams = new URLSearchParams({
         begin_date: this.formatDate(date),
         end_date: this.formatDate(new Date(date.getTime() + 24 * 60 * 60 * 1000)),
         station: stationId,
@@ -150,12 +152,12 @@ export class NOAATideProvider implements TideProvider {
       });
 
       const [hourlyResponse, hiloResponse] = await Promise.all([
-        fetch(hourlyUrl),
-        fetch(hiloUrl)
+        fetch(`/api/tide?${hourlyParams.toString()}`),
+        fetch(`/api/tide?${hiloParams.toString()}`)
       ]);
 
       if (!hourlyResponse.ok || !hiloResponse.ok) {
-        throw new Error('NOAA API error');
+        throw new Error('Tide API error');
       }
 
       const hourlyData: NOAAResponse = await hourlyResponse.json();
