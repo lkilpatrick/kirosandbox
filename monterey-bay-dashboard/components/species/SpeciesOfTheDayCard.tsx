@@ -128,33 +128,63 @@ export function SpeciesOfTheDayCard() {
             <div>
               <h3 className="text-3xl font-bold text-white drop-shadow-md">{species.common_name}</h3>
               <p className="text-sm italic text-blue-100">{species.scientific_name}</p>
+              {species.category && (
+                <p className="text-xs text-blue-200 mt-1 capitalize">{species.category.replace(/_/g, ' ')}</p>
+              )}
             </div>
 
             <div className="grid grid-cols-2 gap-3">
               {species.max_size && (
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20">
                   <span className="text-xs font-semibold text-blue-100 block mb-1">Max Size</span>
-                  <p className="text-white font-bold">{species.max_size}</p>
+                  <p className="text-white font-bold text-sm">{species.max_size}</p>
+                </div>
+              )}
+              {species.max_age && (
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20">
+                  <span className="text-xs font-semibold text-blue-100 block mb-1">Max Age</span>
+                  <p className="text-white font-bold text-sm">{species.max_age}</p>
                 </div>
               )}
               {species.depth_range_ft && species.depth_range_ft.length === 2 && (
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20">
-                  <span className="text-xs font-semibold text-blue-100 block mb-1">Depth</span>
-                  <p className="text-white font-bold">{species.depth_range_ft[0]}-{species.depth_range_ft[1]} ft</p>
+                  <span className="text-xs font-semibold text-blue-100 block mb-1">Depth Range</span>
+                  <p className="text-white font-bold text-sm">{species.depth_range_ft[0]}-{species.depth_range_ft[1]} ft</p>
                 </div>
               )}
               {species.fishing_zone && (
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20">
-                  <span className="text-xs font-semibold text-blue-100 block mb-1">Zone</span>
-                  <p className="text-white font-bold">{species.fishing_zone}</p>
+                  <span className="text-xs font-semibold text-blue-100 block mb-1">Fishing Zone</span>
+                  <p className="text-white font-bold text-sm capitalize">{species.fishing_zone}</p>
                 </div>
               )}
-              {species.cdfw_bag_limit && (
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20">
-                  <span className="text-xs font-semibold text-blue-100 block mb-1">Bag Limit</span>
-                  <p className="text-white font-bold">{species.cdfw_bag_limit}</p>
-                </div>
-              )}
+            </div>
+
+            {/* Regulations */}
+            <div className="bg-white/15 backdrop-blur-sm p-4 rounded-xl border border-white/20">
+              <h4 className="font-bold text-white text-sm mb-3 flex items-center gap-2">
+                <span>📋</span> Regulations
+              </h4>
+              <div className="space-y-2">
+                {species.cdfw_bag_limit && (
+                  <div className="flex justify-between items-center">
+                    <span className="text-xs text-blue-100">Bag Limit:</span>
+                    <span className="text-white font-semibold text-sm">{species.cdfw_bag_limit}</span>
+                  </div>
+                )}
+                {species.cdfw_size_min && (
+                  <div className="flex justify-between items-center">
+                    <span className="text-xs text-blue-100">Min Size:</span>
+                    <span className="text-white font-semibold text-sm">{species.cdfw_size_min}</span>
+                  </div>
+                )}
+                {species.cdfw_season && (
+                  <div className="flex justify-between items-center">
+                    <span className="text-xs text-blue-100">Season:</span>
+                    <span className="text-white font-semibold text-sm">{species.cdfw_season}</span>
+                  </div>
+                )}
+              </div>
             </div>
 
             {/* Best Spots */}
@@ -162,7 +192,7 @@ export function SpeciesOfTheDayCard() {
               <div>
                 <span className="text-xs font-semibold text-blue-100 block mb-2">📍 Best Spots</span>
                 <div className="flex flex-wrap gap-2">
-                  {species.best_spots?.slice(0, 3).map((spot, i) => (
+                  {species.best_spots?.slice(0, 4).map((spot, i) => (
                     <span key={i} className="bg-white/20 backdrop-blur-sm text-white px-3 py-1 rounded-full text-xs font-medium border border-white/30">
                       {spot}
                     </span>
@@ -170,39 +200,74 @@ export function SpeciesOfTheDayCard() {
                 </div>
               </div>
             )}
-
-            {/* Tip */}
-            {species.tips && (
-              <div className="bg-white/15 backdrop-blur-sm p-4 rounded-xl border border-white/20">
-                <div className="flex items-start gap-2">
-                  <span className="text-xl">💡</span>
-                  <div>
-                    <span className="font-semibold text-white text-sm block mb-1">Pro Tip</span>
-                    <p className="text-sm text-blue-50 leading-relaxed">{species.tips}</p>
-                  </div>
-                </div>
-              </div>
-            )}
           </div>
         </div>
 
+        {/* Natural History - Full Width */}
+        {species.natural_history && (
+          <div className="mt-6 bg-white/10 backdrop-blur-sm p-5 rounded-xl border border-white/20">
+            <h4 className="font-bold text-white mb-3 flex items-center gap-2">
+              <span className="text-xl">🐟</span>
+              Natural History
+            </h4>
+            <p className="text-sm text-blue-50 leading-relaxed">{species.natural_history}</p>
+          </div>
+        )}
+
+        {/* Pro Tip */}
+        {species.tips && (
+          <div className="mt-4 bg-white/15 backdrop-blur-sm p-4 rounded-xl border border-white/20">
+            <div className="flex items-start gap-2">
+              <span className="text-xl">💡</span>
+              <div>
+                <span className="font-semibold text-white text-sm block mb-1">Pro Tip</span>
+                <p className="text-sm text-blue-50 leading-relaxed">{species.tips}</p>
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Gear Section */}
-        {species.gear && (species.gear?.rod || species.gear?.bait_or_lure) && (
+        {species.gear && (
           <div className="mt-6 pt-6 border-t border-white/20">
             <h4 className="font-bold text-white mb-4 flex items-center gap-2">
               <span className="text-xl">🎣</span>
-              Recommended Gear
+              Recommended Gear Setup
             </h4>
             <div className="grid md:grid-cols-2 gap-4">
               {species.gear?.rod && (
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                  <span className="text-xs font-semibold text-blue-100 block mb-2">Rod</span>
+                  <span className="text-xs font-semibold text-blue-100 block mb-2">🎣 Rod</span>
                   <p className="text-white text-sm">{species.gear.rod}</p>
+                </div>
+              )}
+              {species.gear?.reel && (
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                  <span className="text-xs font-semibold text-blue-100 block mb-2">🎣 Reel</span>
+                  <p className="text-white text-sm">{species.gear.reel}</p>
+                </div>
+              )}
+              {species.gear?.line && (
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                  <span className="text-xs font-semibold text-blue-100 block mb-2">🧵 Line</span>
+                  <p className="text-white text-sm">{species.gear.line}</p>
+                </div>
+              )}
+              {species.gear?.leader && (
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                  <span className="text-xs font-semibold text-blue-100 block mb-2">🧵 Leader</span>
+                  <p className="text-white text-sm">{species.gear.leader}</p>
+                </div>
+              )}
+              {species.gear?.hook && (
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                  <span className="text-xs font-semibold text-blue-100 block mb-2">🪝 Hook</span>
+                  <p className="text-white text-sm">{species.gear.hook}</p>
                 </div>
               )}
               {species.gear?.bait_or_lure && (
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                  <span className="text-xs font-semibold text-blue-100 block mb-2">Bait/Lure</span>
+                  <span className="text-xs font-semibold text-blue-100 block mb-2">🎯 Bait/Lure</span>
                   <p className="text-white text-sm">{species.gear.bait_or_lure}</p>
                 </div>
               )}

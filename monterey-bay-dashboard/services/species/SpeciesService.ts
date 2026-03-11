@@ -39,12 +39,25 @@ export class SpeciesService {
   
   /**
    * Get species in season for current month
+   * Only returns species that:
+   * 1. Have a defined season (months_best array exists and has values)
+   * 2. Are currently in season OR are always open
+   * 3. Are actually fishable (have fishing-related data)
    */
   getSpeciesInSeason(month?: number): Species[] {
     const currentMonth = month ?? new Date().getMonth() + 1;
-    return this.species.filter(s => 
-      s.months_best?.includes(currentMonth) || s.cdfw_always_open
-    );
+    return this.species.filter(s => {
+      // Must have months_best defined (even if empty) or be always open
+      const hasSeasonData = s.months_best !== undefined || s.cdfw_always_open;
+      
+      // Must be in season or always open
+      const isInSeason = s.months_best?.includes(currentMonth) || s.cdfw_always_open;
+      
+      // Must have fishing-related data (bag limit indicates it's fishable)
+      const isFishable = s.cdfw_bag_limit !== undefined && s.cdfw_bag_limit !== null;
+      
+      return hasSeasonData && isInSeason && isFishable;
+    });
   }
   
   /**

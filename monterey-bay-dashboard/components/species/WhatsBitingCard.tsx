@@ -55,19 +55,58 @@ export function WhatsBitingCard({ locationName }: WhatsBitingCardProps) {
         {species.map((s) => (
           <div
             key={s.key}
-            className="flex items-center gap-3 p-3 bg-white/70 rounded-lg hover:bg-white hover:scale-[1.02] transition-all cursor-pointer shadow-sm"
+            className="bg-white/70 rounded-lg hover:bg-white hover:scale-[1.01] transition-all cursor-pointer shadow-sm border border-amber-200/50 overflow-hidden"
           >
-            <span className="text-2xl">{s.emoji}</span>
-            <div className="flex-1 min-w-0">
-              <h4 className="font-bold text-amber-900 text-sm truncate">
-                {s.common_name}
-              </h4>
-              <p className="text-xs text-amber-700 truncate">
-                {s.fishing_zone} • {s.depth_range_ft?.[0] || 0}-{s.depth_range_ft?.[1] || 0} ft
-              </p>
-            </div>
-            <div className="text-xs font-bold text-amber-800 bg-amber-200 px-2 py-1 rounded">
-              {s.cdfw_bag_limit?.split(' ')[0] || 'N/A'}
+            <div className="flex items-start gap-3 p-4">
+              <span className="text-3xl flex-shrink-0">{s.emoji}</span>
+              <div className="flex-1 min-w-0">
+                <div className="flex items-start justify-between gap-2 mb-2">
+                  <div>
+                    <h4 className="font-bold text-amber-900 text-base">{s.common_name}</h4>
+                    <p className="text-xs italic text-amber-700">{s.scientific_name}</p>
+                  </div>
+                  {s.cdfw_bag_limit && (
+                    <div className="text-xs font-bold text-amber-800 bg-amber-200 px-3 py-1 rounded-full whitespace-nowrap">
+                      {s.cdfw_bag_limit.split(' ')[0]} bag
+                    </div>
+                  )}
+                </div>
+                
+                <div className="grid grid-cols-2 gap-2 text-xs">
+                  {s.fishing_zone && (
+                    <div className="flex items-center gap-1 text-amber-700">
+                      <span>📍</span>
+                      <span className="capitalize">{s.fishing_zone}</span>
+                    </div>
+                  )}
+                  {s.depth_range_ft && s.depth_range_ft.length === 2 && (
+                    <div className="flex items-center gap-1 text-amber-700">
+                      <span>⬇️</span>
+                      <span>{s.depth_range_ft[0]}-{s.depth_range_ft[1]} ft</span>
+                    </div>
+                  )}
+                  {s.max_size && (
+                    <div className="flex items-center gap-1 text-amber-700">
+                      <span>📏</span>
+                      <span>{s.max_size}</span>
+                    </div>
+                  )}
+                  {s.cdfw_season && (
+                    <div className="flex items-center gap-1 text-amber-700">
+                      <span>📅</span>
+                      <span className="truncate">{s.cdfw_season.split('(')[0].trim()}</span>
+                    </div>
+                  )}
+                </div>
+
+                {s.tips && (
+                  <div className="mt-3 pt-3 border-t border-amber-200">
+                    <p className="text-xs text-amber-800 leading-relaxed line-clamp-2">
+                      💡 {s.tips}
+                    </p>
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         ))}
