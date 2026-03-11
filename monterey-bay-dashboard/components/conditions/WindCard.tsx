@@ -11,19 +11,18 @@ interface WindCardProps {
 export function WindCard({ locationId }: WindCardProps) {
   const [windData, setWindData] = useState<WindData | null>(null);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchWindData = async () => {
       setLoading(true);
-      setError(null);
       
       try {
         const provider = new NDBCBuoyProvider();
         const data = await provider.getWindData(locationId, new Date());
         setWindData(data);
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'Failed to load wind data');
+        console.error('Failed to load wind data:', err);
+        setWindData(null);
       } finally {
         setLoading(false);
       }
@@ -32,59 +31,55 @@ export function WindCard({ locationId }: WindCardProps) {
     fetchWindData();
   }, [locationId]);
 
+  // Failover: Don't render if no data
+  if (!loading && !windData) {
+    return null;
+  }
+
   if (loading) {
     return (
-      <div className="bg-white rounded-lg shadow-md p-4 md:p-6">
-        <h3 className="text-lg font-semibold text-blue-900 mb-2">Wind</h3>
-        <p className="text-sm text-gray-600">Loading wind data...</p>
-      </div>
-    );
-  }
-
-  if (error) {
-    return (
-      <div className="bg-white rounded-lg shadow-md p-4 md:p-6">
-        <h3 className="text-lg font-semibold text-blue-900 mb-2">Wind</h3>
-        <p className="text-sm text-red-600">{error}</p>
-      </div>
-    );
-  }
-
-  if (!windData) {
-    return (
-      <div className="bg-white rounded-lg shadow-md p-4 md:p-6">
-        <h3 className="text-lg font-semibold text-blue-900 mb-2">Wind</h3>
-        <p className="text-sm text-gray-600">No wind data available</p>
+      <div className="bg-gradient-to-br from-cyan-50 to-teal-100 rounded-xl shadow-lg p-6 border border-cyan-200">
+        <div className="flex items-center gap-3 mb-4">
+          <span className="text-3xl">💨</span>
+          <h3 className="text-xl font-bold text-cyan-900">Wind</h3>
+        </div>
+        <div className="animate-pulse space-y-3">
+          <div className="h-4 bg-cyan-200 rounded w-3/4"></div>
+          <div className="h-4 bg-cyan-200 rounded w-1/2"></div>
+        </div>
       </div>
     );
   }
 
   return (
-    <div className="bg-white rounded-lg shadow-md p-4 md:p-6">
-      <h3 className="text-lg font-semibold text-blue-900 mb-4">Wind</h3>
+    <div className="bg-gradient-to-br from-cyan-50 to-teal-100 rounded-xl shadow-lg p-6 border border-cyan-200 hover:shadow-xl transition-shadow">
+      <div className="flex items-center gap-3 mb-6">
+        <span className="text-3xl">💨</span>
+        <h3 className="text-xl font-bold text-cyan-900">Wind</h3>
+      </div>
       
-      <div className="space-y-3">
+      <div className="space-y-4">
         {/* Wind Speed */}
-        <div className="flex justify-between items-center">
-          <span className="text-sm font-medium text-gray-700">Speed:</span>
-          <span className="text-base font-semibold text-blue-900">
-            {windData.speed} kts
+        <div className="flex justify-between items-center p-3 bg-white/60 rounded-lg">
+          <span className="text-sm font-medium text-cyan-700">Speed</span>
+          <span className="text-2xl font-bold text-cyan-900">
+            {windData!.speed} <span className="text-base">kts</span>
           </span>
         </div>
 
         {/* Wind Gust */}
-        <div className="flex justify-between items-center">
-          <span className="text-sm font-medium text-gray-700">Gust:</span>
-          <span className="text-base font-semibold text-blue-900">
-            {windData.gust} kts
+        <div className="flex justify-between items-center p-3 bg-white/60 rounded-lg">
+          <span className="text-sm font-medium text-cyan-700">Gust</span>
+          <span className="text-2xl font-bold text-cyan-900">
+            {windData!.gust} <span className="text-base">kts</span>
           </span>
         </div>
 
         {/* Wind Direction */}
-        <div className="flex justify-between items-center pt-2 border-t border-gray-200">
-          <span className="text-sm font-medium text-gray-700">Direction:</span>
-          <span className="text-base font-semibold text-blue-900">
-            {windData.direction}
+        <div className="flex justify-between items-center p-3 bg-white/60 rounded-lg">
+          <span className="text-sm font-medium text-cyan-700">Direction</span>
+          <span className="text-xl font-bold text-cyan-900">
+            {windData!.direction}
           </span>
         </div>
       </div>

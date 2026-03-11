@@ -29,25 +29,35 @@ export default function Home() {
   return (
     <DashboardLayout
       header={
-        <div>
-          <h1 className="text-3xl md:text-4xl font-bold text-blue-900 mb-2">
-            Monterey Bay Conditions Dashboard
-          </h1>
-          <p className="text-base md:text-lg text-blue-700 mb-4">
-            Ocean conditions and activity recommendations for Monterey Bay
-          </p>
+        <div className="relative">
+          {/* Background gradient */}
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-cyan-600 to-blue-700 opacity-10 rounded-2xl"></div>
           
-          {/* Location and Activity Selectors */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl">
-            <LocationSelector
-              locations={MONTEREY_BAY_LOCATIONS}
-              selectedLocation={selectedLocation}
-              onChange={handleLocationChange}
-            />
-            <ActivitySelector
-              selectedActivity={selectedActivity}
-              onChange={handleActivityChange}
-            />
+          <div className="relative">
+            <div className="flex items-center gap-3 mb-3">
+              <span className="text-5xl">🌊</span>
+              <div>
+                <h1 className="text-3xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
+                  Monterey Bay Conditions
+                </h1>
+                <p className="text-base md:text-lg text-gray-600 mt-1">
+                  Real-time ocean data • Live NOAA feeds • Updated continuously
+                </p>
+              </div>
+            </div>
+            
+            {/* Location and Activity Selectors */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mt-6">
+              <LocationSelector
+                locations={MONTEREY_BAY_LOCATIONS}
+                selectedLocation={selectedLocation}
+                onChange={handleLocationChange}
+              />
+              <ActivitySelector
+                selectedActivity={selectedActivity}
+                onChange={handleActivityChange}
+              />
+            </div>
           </div>
         </div>
       }
@@ -63,17 +73,19 @@ export default function Home() {
         <SpeciesOfTheDayCard />
       </div>
 
-      {/* Condition Cards */}
-      <TideCard locationId={selectedLocation.id} />
-      <WeatherCard locationId={selectedLocation.id} />
-      <WindCard locationId={selectedLocation.id} />
-      <SwellCard locationId={selectedLocation.id} />
-      <DiveConditionsCard locationId={selectedLocation.id} />
-      
-      {/* What's Biting Card */}
-      {selectedActivity === 'fishing' && (
-        <WhatsBitingCard locationName={selectedLocation.name} />
-      )}
+      {/* Condition Cards - Improved Grid */}
+      <div className="col-span-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <TideCard locationId={selectedLocation.id} />
+        <WeatherCard locationId={selectedLocation.id} />
+        <WindCard locationId={selectedLocation.id} />
+        <SwellCard locationId={selectedLocation.id} />
+        <DiveConditionsCard locationId={selectedLocation.id} />
+        
+        {/* What's Biting Card */}
+        {selectedActivity === 'fishing' && (
+          <WhatsBitingCard locationName={selectedLocation.name} />
+        )}
+      </div>
     </DashboardLayout>
   );
 }

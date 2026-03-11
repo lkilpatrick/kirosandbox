@@ -3,7 +3,6 @@
 import { useEffect, useState } from 'react';
 import { Species } from '@/models/Species';
 import { SpeciesService } from '@/services/species';
-import { CardLoadingSkeleton } from '@/components/ui';
 
 interface WhatsBitingCardProps {
   locationName: string;
@@ -20,48 +19,59 @@ export function WhatsBitingCard({ locationName }: WhatsBitingCardProps) {
     setLoading(false);
   }, [locationName]);
 
+  // Failover: Don't render if no species data
+  if (!loading && species.length === 0) {
+    return null;
+  }
+
   if (loading) {
-    return <CardLoadingSkeleton />;
+    return (
+      <div className="bg-gradient-to-br from-amber-50 to-orange-100 rounded-xl shadow-lg p-6 border border-amber-200">
+        <div className="flex items-center gap-3 mb-4">
+          <span className="text-3xl">🎣</span>
+          <h3 className="text-xl font-bold text-amber-900">What's Biting</h3>
+        </div>
+        <div className="animate-pulse space-y-3">
+          <div className="h-16 bg-amber-200 rounded-lg"></div>
+          <div className="h-16 bg-amber-200 rounded-lg"></div>
+          <div className="h-16 bg-amber-200 rounded-lg"></div>
+        </div>
+      </div>
+    );
   }
 
   return (
-    <div className="bg-white rounded-lg shadow-md p-4 md:p-6">
-      <div className="flex items-center gap-2 mb-4">
-        <span className="text-2xl">🎣</span>
-        <h3 className="text-lg font-semibold text-blue-900">What's Biting</h3>
+    <div className="bg-gradient-to-br from-amber-50 to-orange-100 rounded-xl shadow-lg p-6 border border-amber-200 hover:shadow-xl transition-shadow">
+      <div className="flex items-center gap-3 mb-4">
+        <span className="text-3xl">🎣</span>
+        <h3 className="text-xl font-bold text-amber-900">What's Biting</h3>
       </div>
 
-      <p className="text-sm text-gray-600 mb-4">
-        Species in season at {locationName}
+      <p className="text-sm text-amber-700 mb-4 font-medium">
+        In season at {locationName}
       </p>
 
       <div className="space-y-3">
         {species.map((s) => (
           <div
             key={s.key}
-            className="flex items-center gap-3 p-3 bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors cursor-pointer"
+            className="flex items-center gap-3 p-3 bg-white/70 rounded-lg hover:bg-white hover:scale-[1.02] transition-all cursor-pointer shadow-sm"
           >
             <span className="text-2xl">{s.emoji}</span>
             <div className="flex-1 min-w-0">
-              <h4 className="font-semibold text-gray-900 text-sm truncate">
+              <h4 className="font-bold text-amber-900 text-sm truncate">
                 {s.common_name}
               </h4>
-              <p className="text-xs text-gray-600 truncate">
+              <p className="text-xs text-amber-700 truncate">
                 {s.fishing_zone} • {s.depth_range_ft?.[0] || 0}-{s.depth_range_ft?.[1] || 0} ft
               </p>
             </div>
-            <div className="text-xs text-gray-500 text-right">
+            <div className="text-xs font-bold text-amber-800 bg-amber-200 px-2 py-1 rounded">
               {s.cdfw_bag_limit?.split(' ')[0] || 'N/A'}
             </div>
           </div>
         ))}
       </div>
-
-      {species.length === 0 && (
-        <p className="text-sm text-gray-500 text-center py-4">
-          No species data available for this location
-        </p>
-      )}
     </div>
   );
 }

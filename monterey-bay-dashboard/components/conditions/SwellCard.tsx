@@ -11,19 +11,18 @@ interface SwellCardProps {
 export function SwellCard({ locationId }: SwellCardProps) {
   const [swellData, setSwellData] = useState<SwellData | null>(null);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchSwellData = async () => {
       setLoading(true);
-      setError(null);
       
       try {
         const provider = new NDBCBuoyProvider();
         const data = await provider.getSwellData(locationId, new Date());
         setSwellData(data);
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'Failed to load swell data');
+        console.error('Failed to load swell data:', err);
+        setSwellData(null);
       } finally {
         setLoading(false);
       }
@@ -32,59 +31,55 @@ export function SwellCard({ locationId }: SwellCardProps) {
     fetchSwellData();
   }, [locationId]);
 
+  // Failover: Don't render if no data
+  if (!loading && !swellData) {
+    return null;
+  }
+
   if (loading) {
     return (
-      <div className="bg-white rounded-lg shadow-md p-4 md:p-6">
-        <h3 className="text-lg font-semibold text-blue-900 mb-2">Swell</h3>
-        <p className="text-sm text-gray-600">Loading swell data...</p>
-      </div>
-    );
-  }
-
-  if (error) {
-    return (
-      <div className="bg-white rounded-lg shadow-md p-4 md:p-6">
-        <h3 className="text-lg font-semibold text-blue-900 mb-2">Swell</h3>
-        <p className="text-sm text-red-600">{error}</p>
-      </div>
-    );
-  }
-
-  if (!swellData) {
-    return (
-      <div className="bg-white rounded-lg shadow-md p-4 md:p-6">
-        <h3 className="text-lg font-semibold text-blue-900 mb-2">Swell</h3>
-        <p className="text-sm text-gray-600">No swell data available</p>
+      <div className="bg-gradient-to-br from-blue-50 to-indigo-100 rounded-xl shadow-lg p-6 border border-blue-200">
+        <div className="flex items-center gap-3 mb-4">
+          <span className="text-3xl">🌊</span>
+          <h3 className="text-xl font-bold text-blue-900">Swell</h3>
+        </div>
+        <div className="animate-pulse space-y-3">
+          <div className="h-4 bg-blue-200 rounded w-3/4"></div>
+          <div className="h-4 bg-blue-200 rounded w-1/2"></div>
+        </div>
       </div>
     );
   }
 
   return (
-    <div className="bg-white rounded-lg shadow-md p-4 md:p-6">
-      <h3 className="text-lg font-semibold text-blue-900 mb-4">Swell</h3>
+    <div className="bg-gradient-to-br from-blue-50 to-indigo-100 rounded-xl shadow-lg p-6 border border-blue-200 hover:shadow-xl transition-shadow">
+      <div className="flex items-center gap-3 mb-6">
+        <span className="text-3xl">🌊</span>
+        <h3 className="text-xl font-bold text-blue-900">Swell</h3>
+      </div>
       
-      <div className="space-y-3">
+      <div className="space-y-4">
         {/* Swell Height */}
-        <div className="flex justify-between items-center">
-          <span className="text-sm font-medium text-gray-700">Height:</span>
-          <span className="text-base font-semibold text-blue-900">
-            {swellData.height} ft
+        <div className="flex justify-between items-center p-3 bg-white/60 rounded-lg">
+          <span className="text-sm font-medium text-blue-700">Height</span>
+          <span className="text-2xl font-bold text-blue-900">
+            {swellData!.height} <span className="text-base">ft</span>
           </span>
         </div>
 
         {/* Swell Period */}
-        <div className="flex justify-between items-center">
-          <span className="text-sm font-medium text-gray-700">Period:</span>
-          <span className="text-base font-semibold text-blue-900">
-            {swellData.period} sec
+        <div className="flex justify-between items-center p-3 bg-white/60 rounded-lg">
+          <span className="text-sm font-medium text-blue-700">Period</span>
+          <span className="text-2xl font-bold text-blue-900">
+            {swellData!.period} <span className="text-base">sec</span>
           </span>
         </div>
 
         {/* Swell Direction */}
-        <div className="flex justify-between items-center pt-2 border-t border-gray-200">
-          <span className="text-sm font-medium text-gray-700">Direction:</span>
-          <span className="text-base font-semibold text-blue-900">
-            {swellData.direction}
+        <div className="flex justify-between items-center p-3 bg-white/60 rounded-lg">
+          <span className="text-sm font-medium text-blue-700">Direction</span>
+          <span className="text-xl font-bold text-blue-900">
+            {swellData!.direction}
           </span>
         </div>
       </div>

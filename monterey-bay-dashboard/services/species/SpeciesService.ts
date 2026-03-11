@@ -52,8 +52,8 @@ export class SpeciesService {
    */
   getSpeciesByLocation(locationName: string): Species[] {
     return this.species.filter(s =>
-      s.best_spots?.some(spot => 
-        spot.toLowerCase().includes(locationName.toLowerCase()) ||
+      s.best_spots && Array.isArray(s.best_spots) && s.best_spots.some(spot => 
+        spot && spot.toLowerCase().includes(locationName.toLowerCase()) ||
         locationName.toLowerCase().includes(spot.toLowerCase())
       )
     );

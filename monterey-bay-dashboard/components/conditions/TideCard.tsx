@@ -25,6 +25,7 @@ export function TideCard({ locationId }: TideCardProps) {
         setTideData(data);
       } catch (err) {
         setError(err instanceof Error ? err.message : 'Failed to load tide data');
+        console.error('Tide data error:', err);
       } finally {
         setLoading(false);
       }
@@ -59,70 +60,65 @@ export function TideCard({ locationId }: TideCardProps) {
     return <CardLoadingSkeleton />;
   }
 
-  if (error) {
-    return (
-      <div className="bg-white rounded-lg shadow-md p-4 md:p-6">
-        <div className="flex items-center gap-2 mb-2">
-          <span className="text-2xl">🌊</span>
-          <h3 className="text-lg font-semibold text-blue-900">Tide</h3>
-        </div>
-        <p className="text-sm text-red-600">{error}</p>
-      </div>
-    );
-  }
-
-  if (!tideData) {
-    return (
-      <div className="bg-white rounded-lg shadow-md p-4 md:p-6">
-        <div className="flex items-center gap-2 mb-2">
-          <span className="text-2xl">🌊</span>
-          <h3 className="text-lg font-semibold text-blue-900">Tide</h3>
-        </div>
-        <p className="text-sm text-gray-600">No tide data available</p>
-      </div>
-    );
+  if (error || !tideData) {
+    return null; // Hide card if no data
   }
 
   return (
-    <div className="bg-white rounded-lg shadow-md p-4 md:p-6 hover:shadow-lg transition-shadow">
-      <div className="flex items-center gap-2 mb-4">
-        <span className="text-2xl">🌊</span>
-        <h3 className="text-lg font-semibold text-blue-900">Tide</h3>
+    <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-6 border border-blue-100 group">
+      <div className="flex items-center gap-3 mb-5">
+        <div className="bg-gradient-to-br from-blue-500 to-cyan-500 p-3 rounded-xl shadow-md group-hover:scale-110 transition-transform">
+          <span className="text-3xl">🌊</span>
+        </div>
+        <div>
+          <h3 className="text-xl font-bold text-blue-900">Tide</h3>
+          <p className="text-xs text-blue-600">NOAA CO-OPS Live Data</p>
+        </div>
       </div>
       
-      <div className="space-y-3">
+      <div className="space-y-4">
         {/* Next High Tide */}
-        <div className="flex justify-between items-center">
-          <span className="text-sm font-medium text-gray-700">Next High:</span>
-          <div className="text-right">
-            <div className="text-base font-semibold text-blue-900">
-              {formatTime(tideData.nextHigh)}
-            </div>
-            <div className="text-xs text-gray-500">
-              {formatDate(tideData.nextHigh)}
+        <div className="bg-white/60 backdrop-blur-sm rounded-lg p-4 border border-blue-100">
+          <div className="flex justify-between items-center">
+            <span className="text-sm font-semibold text-blue-700 flex items-center gap-2">
+              <span>↑</span> Next High
+            </span>
+            <div className="text-right">
+              <div className="text-lg font-bold text-blue-900">
+                {formatTime(tideData.nextHigh)}
+              </div>
+              <div className="text-xs text-blue-600">
+                {formatDate(tideData.nextHigh)}
+              </div>
             </div>
           </div>
         </div>
 
         {/* Next Low Tide */}
-        <div className="flex justify-between items-center">
-          <span className="text-sm font-medium text-gray-700">Next Low:</span>
-          <div className="text-right">
-            <div className="text-base font-semibold text-blue-900">
-              {formatTime(tideData.nextLow)}
-            </div>
-            <div className="text-xs text-gray-500">
-              {formatDate(tideData.nextLow)}
+        <div className="bg-white/60 backdrop-blur-sm rounded-lg p-4 border border-blue-100">
+          <div className="flex justify-between items-center">
+            <span className="text-sm font-semibold text-blue-700 flex items-center gap-2">
+              <span>↓</span> Next Low
+            </span>
+            <div className="text-right">
+              <div className="text-lg font-bold text-blue-900">
+                {formatTime(tideData.nextLow)}
+              </div>
+              <div className="text-xs text-blue-600">
+                {formatDate(tideData.nextLow)}
+              </div>
             </div>
           </div>
         </div>
 
         {/* Tide Trend */}
-        <div className="flex justify-between items-center pt-2 border-t border-gray-200">
-          <span className="text-sm font-medium text-gray-700">Current Trend:</span>
-          <span className="text-base font-semibold text-blue-900 capitalize">
-            {tideData.tideTrend === 'rising' ? '↑ Rising' : '↓ Falling'}
-          </span>
+        <div className="bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg p-4 text-white">
+          <div className="flex justify-between items-center">
+            <span className="text-sm font-semibold">Current Trend</span>
+            <span className="text-lg font-bold capitalize flex items-center gap-2">
+              {tideData.tideTrend === 'rising' ? '↑ Rising' : '↓ Falling'}
+            </span>
+          </div>
         </div>
       </div>
     </div>
