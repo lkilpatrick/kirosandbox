@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { DashboardLayout } from '@/components/layout';
 import { LocationSelector, ActivitySelector, Activity } from '@/components/selectors';
-import { TideCard, WeatherCard, WindCard, SwellCard, DiveConditionsCard } from '@/components/conditions';
+import { TideCard, TideChart, WeatherCard, WindCard, SwellCard, DiveConditionsCard } from '@/components/conditions';
 import { RecommendationCard } from '@/components/recommendation';
 import { SpeciesOfTheDayCard, WhatsBitingCard } from '@/components/species';
 import { MONTEREY_BAY_LOCATIONS, DEFAULT_LOCATION, Location } from '@/models';
@@ -68,6 +68,11 @@ export default function Home() {
         />
       }
     >
+      {/* Tide Chart - Full Width First Item */}
+      <div className="col-span-full">
+        <TideChart locationId={selectedLocation.id} />
+      </div>
+
       {/* Species of the Day - Full Width */}
       <div className="col-span-full">
         <SpeciesOfTheDayCard />
