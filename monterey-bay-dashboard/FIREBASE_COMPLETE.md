@@ -30,17 +30,7 @@
 
 ## Your Firebase Configuration
 
-```javascript
-{
-  apiKey: "AIzaSyCIgZj9sGTVlG9_4Lsu9rI7gZVMumsQrto",
-  authDomain: "montereydashboard.firebaseapp.com",
-  projectId: "montereydashboard",
-  storageBucket: "montereydashboard.firebasestorage.app",
-  messagingSenderId: "880796508508",
-  appId: "1:880796508508:web:06fcd38b698a2a5d29e199",
-  measurementId: "G-83V49J0P14"
-}
-```
+
 
 ## Deploy Now!
 
