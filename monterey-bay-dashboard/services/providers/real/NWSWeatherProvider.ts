@@ -40,15 +40,35 @@ export class NWSWeatherProvider implements MarineWeatherProvider {
     const coords = this.locationCoords[locationId] || this.locationCoords['monterey-harbor'];
     
     try {
-      // Use API route to avoid CORS issues
-      const url = `/api/weather?lat=${coords.lat.toFixed(4)}&lon=${coords.lon.toFixed(4)}`;
-      const response = await fetch(url);
+      // NWS API supports CORS, so we can call directly
+      // Step 1: Get forecast URL for this location
+      const pointUrl = `${this.baseUrl}/points/${coords.lat.toFixed(4)},${coords.lon.toFixed(4)}`;
+      const pointResponse = await fetch(pointUrl, {
+        headers: {
+          'User-Agent': 'MontereyBayDashboard/1.0',
+          'Accept': 'application/json'
+        }
+      });
 
-      if (!response.ok) {
-        throw new Error(`Weather API error: ${response.status}`);
+      if (!pointResponse.ok) {
+        throw new Error(`NWS Point API error: ${pointResponse.status}`);
       }
 
-      const forecastData: NWSForecast = await response.json();
+      const pointData: NWSPoint = await pointResponse.json();
+      
+      // Step 2: Get forecast data
+      const forecastResponse = await fetch(pointData.properties.forecast, {
+        headers: {
+          'User-Agent': 'MontereyBayDashboard/1.0',
+          'Accept': 'application/json'
+        }
+      });
+
+      if (!forecastResponse.ok) {
+        throw new Error(`NWS Forecast API error: ${forecastResponse.status}`);
+      }
+
+      const forecastData: NWSForecast = await forecastResponse.json();
       
       if (!forecastData.properties.periods || forecastData.properties.periods.length === 0) {
         throw new Error('No forecast data available');
