@@ -1,0 +1,162 @@
+{
+  "monterey-harbor": [
+    {
+      "timestamp": "2024-01-15T08:00:00Z",
+      "estimatedVisibility": 25,
+      "waterTemp": 54,
+      "surgeRisk": "low"
+    },
+    {
+      "timestamp": "2024-01-15T14:00:00Z",
+      "estimatedVisibility": 20,
+      "waterTemp": 55,
+      "surgeRisk": "moderate"
+    },
+    {
+      "timestamp": "2024-01-15T20:00:00Z",
+      "estimatedVisibility": 30,
+      "waterTemp": 54,
+      "surgeRisk": "low"
+    },
+    {
+      "timestamp": "2024-01-16T08:00:00Z",
+      "estimatedVisibility": 15,
+      "waterTemp": 53,
+      "surgeRisk": "moderate"
+    },
+    {
+      "timestamp": "2024-01-16T14:00:00Z",
+      "estimatedVisibility": 12,
+      "waterTemp": 53,
+      "surgeRisk": "high"
+    }
+  ],
+  "breakwater": [
+    {
+      "timestamp": "2024-01-15T08:00:00Z",
+      "estimatedVisibility": 35,
+      "waterTemp": 55,
+      "surgeRisk": "low"
+    },
+    {
+      "timestamp": "2024-01-15T14:00:00Z",
+      "estimatedVisibility": 30,
+      "waterTemp": 56,
+      "surgeRisk": "low"
+    },
+    {
+      "timestamp": "2024-01-15T20:00:00Z",
+      "estimatedVisibility": 40,
+      "waterTemp": 55,
+      "surgeRisk": "low"
+    },
+    {
+      "timestamp": "2024-01-16T08:00:00Z",
+      "estimatedVisibility": 22,
+      "waterTemp": 54,
+      "surgeRisk": "moderate"
+    },
+    {
+      "timestamp": "2024-01-16T14:00:00Z",
+      "estimatedVisibility": 18,
+      "waterTemp": 54,
+      "surgeRisk": "moderate"
+    }
+  ],
+  "stillwater-cove": [
+    {
+      "timestamp": "2024-01-15T08:00:00Z",
+      "estimatedVisibility": 28,
+      "waterTemp": 56,
+      "surgeRisk": "low"
+    },
+    {
+      "timestamp": "2024-01-15T14:00:00Z",
+      "estimatedVisibility": 32,
+      "waterTemp": 57,
+      "surgeRisk": "low"
+    },
+    {
+      "timestamp": "2024-01-15T20:00:00Z",
+      "estimatedVisibility": 35,
+      "waterTemp": 56,
+      "surgeRisk": "low"
+    },
+    {
+      "timestamp": "2024-01-16T08:00:00Z",
+      "estimatedVisibility": 20,
+      "waterTemp": 55,
+      "surgeRisk": "moderate"
+    },
+    {
+      "timestamp": "2024-01-16T14:00:00Z",
+      "estimatedVisibility": 16,
+      "waterTemp": 55,
+      "surgeRisk": "moderate"
+    }
+  ],
+  "sand-city": [
+    {
+      "timestamp": "2024-01-15T08:00:00Z",
+      "estimatedVisibility": 18,
+      "waterTemp": 53,
+      "surgeRisk": "moderate"
+    },
+    {
+      "timestamp": "2024-01-15T14:00:00Z",
+      "estimatedVisibility": 14,
+      "waterTemp": 54,
+      "surgeRisk": "high"
+    },
+    {
+      "timestamp": "2024-01-15T20:00:00Z",
+      "estimatedVisibility": 22,
+      "waterTemp": 53,
+      "surgeRisk": "moderate"
+    },
+    {
+      "timestamp": "2024-01-16T08:00:00Z",
+      "estimatedVisibility": 10,
+      "waterTemp": 52,
+      "surgeRisk": "high"
+    },
+    {
+      "timestamp": "2024-01-16T14:00:00Z",
+      "estimatedVisibility": 10,
+      "waterTemp": 52,
+      "surgeRisk": "high"
+    }
+  ],
+  "moss-landing": [
+    {
+      "timestamp": "2024-01-15T08:00:00Z",
+      "estimatedVisibility": 20,
+      "waterTemp": 52,
+      "surgeRisk": "moderate"
+    },
+    {
+      "timestamp": "2024-01-15T14:00:00Z",
+      "estimatedVisibility": 16,
+      "waterTemp": 53,
+      "surgeRisk": "moderate"
+    },
+    {
+      "timestamp": "2024-01-15T20:00:00Z",
+      "estimatedVisibility": 25,
+      "waterTemp": 52,
+      "surgeRisk": "low"
+    },
+    {
+      "timestamp": "2024-01-16T08:00:00Z",
+      "estimatedVisibility": 12,
+      "waterTemp": 51,
+      "surgeRisk": "high"
+    },
+    {
+      "timestamp": "2024-01-16T14:00:00Z",
+      "estimatedVisibility": 11,
+      "waterTemp": 51,
+      "surgeRisk": "high"
+    }
+  ]
+}

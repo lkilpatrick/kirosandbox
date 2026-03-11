@@ -1,0 +1,3385 @@
+{
+  "_comment": "Monterey Bay targeted species. Rotated daily as species-of-day. Each entry has a unique key, profile info, gear setup, season metadata, and reference image URL. Rockfish species are broken out individually. Regulations current as of March 2026.",
+  "_reg_note": "All rockfish, cabezon, and greenlings are part of the 10-fish RCG Complex aggregate bag limit. Sub-limits: 2 canary rockfish, 2 vermilion/sunset rockfish combined, 1 copper rockfish. Quillback, cowcod, yelloweye, and bronzespotted rockfish retention is PROHIBITED statewide. No minimum size for rockfish or cabezon. Season Apr 1–Dec 31 in Central Management Area. Descending device required aboard all vessels.",
+  "species": [
+    {
+      "key": "blue_rockfish",
+      "common_name": "Blue Rockfish",
+      "scientific_name": "Sebastes mystinus",
+      "emoji": "🔵",
+      "category": "rockfish_nearshore",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26245/medium.jpg",
+      "natural_history": "The most abundant rockfish in Monterey Bay party boat catches historically. Schooling mid-water species found over rocky reefs, pinnacles, and kelp forests from the surface to 300 ft. Blue-gray to dark blue with darker blotching and two diagonal bars behind the eye. Small mouth for a rockfish. Feeds on krill, jellies, tunicates, and small fish. Schools often churn the surface when feeding aggressively. Recently split into two species — blue (S. mystinus) and deacon (S. diaconus) — based on genetic work.",
+      "max_size": "21 inches, 3.8 lbs",
+      "max_age": "44 years",
+      "depth_range_ft": [
+        0,
+        300
+      ],
+      "fishing_zone": "nearshore / mid-water",
+      "best_spots": [
+        "Point Lobos kelp",
+        "Carmel Pinnacles",
+        "Lovers Point",
+        "Municipal Wharf 2"
+      ],
+      "cdfw_bag_limit": "10 fish (RCG Complex aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31 (boat); year-round (shore/dive)",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "gear": {
+        "rod": "6–7 ft medium jigging rod, 15–25 lb class",
+        "reel": "Level-wind conventional or 3000–4000 spinning",
+        "line": "30–40 lb braid, 20 lb fluorocarbon leader",
+        "leader": "15–20 lb fluorocarbon, 18 inches per dropper",
+        "hook": "Size 1/0–2/0 j-hooks or sabiki-style rigs",
+        "bait_or_lure": "Squid strips, cut anchovy, small shrimp flies, or 2–3 oz metal jigs. Also hits sabiki rigs readily."
+      },
+      "tips": "Look for schools suspended 20–60 ft over structure on sounder. They school mid-water so fish above bottom. Light tackle maximizes the fight. Often the first species caught on any Monterey trip.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/64471"
+    },
+    {
+      "key": "black_rockfish",
+      "common_name": "Black Rockfish",
+      "scientific_name": "Sebastes melanops",
+      "emoji": "⬛",
+      "category": "rockfish_nearshore",
+      "image_url": "https://static.inaturalist.org/photos/41836834/medium.jpeg",
+      "natural_history": "Dark gray to black with mottled sides and black spots on the dorsal fin. Larger mouth than blue rockfish. Aggressive schooling species found over rocky reefs, jetties, and kelp — often near the surface. Strong fighters on light tackle. Common from shore, kayak, or boat in 10–180 ft. Feeds on fish, krill, and crabs. Can reach 25 inches.",
+      "max_size": "25 inches, 11 lbs",
+      "max_age": "50 years",
+      "depth_range_ft": [
+        10,
+        180
+      ],
+      "fishing_zone": "nearshore / mid-water",
+      "best_spots": [
+        "Lovers Point",
+        "Point Lobos",
+        "Cannery Row rocks",
+        "Carmel Bay kelp"
+      ],
+      "cdfw_bag_limit": "10 fish (RCG Complex aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31 (boat); year-round (shore/dive)",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "gear": {
+        "rod": "7 ft medium spinning or light conventional, 15–25 lb class",
+        "reel": "3000–4000 class spinning or small conventional",
+        "line": "30 lb braid, 15–20 lb fluorocarbon leader",
+        "leader": "15–20 lb fluorocarbon, 24 inches",
+        "hook": "1/0–3/0 j-hooks or swim jig heads",
+        "bait_or_lure": "Swimbaits, metal jigs, squid strips, or live anchovies. Hits topwater lures near the surface."
+      },
+      "tips": "Often schools with blue rockfish near the surface. Fight is stronger than blues — expect surface runs. Look for them around structure in the top 60 ft of the water column.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/47760"
+    },
+    {
+      "key": "yellowtail_rockfish",
+      "common_name": "Yellowtail Rockfish",
+      "scientific_name": "Sebastes flavidus",
+      "emoji": "💛",
+      "category": "rockfish_shelf",
+      "image_url": "https://static.inaturalist.org/photos/86499905/medium.jpg",
+      "natural_history": "Olive-green to brown body with distinctive yellow tail fin and yellow-tinted fins. Schools over deep rocky reefs from 100–500 ft, often suspended well off bottom. One of the most common shelf rockfish in the Monterey party boat catch. Easily confused with olive rockfish — check that the rear edge of the anal fin is straight (yellowtail) vs. rounded (olive). Feeds on krill, small fish, and squid.",
+      "max_size": "26 inches, 5.5 lbs",
+      "max_age": "64 years",
+      "depth_range_ft": [
+        100,
+        500
+      ],
+      "fishing_zone": "shelf / mid-water",
+      "best_spots": [
+        "Monterey Canyon East Wall",
+        "Santa Lucia Bank",
+        "Carmel Bay deep"
+      ],
+      "cdfw_bag_limit": "10 fish (RCG Complex aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "gear": {
+        "rod": "7 ft heavy conventional or electric reel rod, 30–50 lb class",
+        "reel": "Medium conventional or electric (Shimano Beastmaster, Penn Squall 30–40)",
+        "line": "50–65 lb braid, 30 lb fluorocarbon leader",
+        "leader": "25–30 lb fluorocarbon, 18–24 inches",
+        "hook": "2/0–4/0 j-hooks on dropper rigs or jig heads",
+        "bait_or_lure": "Metal butterfly jigs (4–6 oz), squid strips, or shrimp flies on multi-hook dropper rigs."
+      },
+      "tips": "Often suspended 30–80 ft off bottom — watch the sounder for mid-water marks. Hit on the drop before you reach bottom. Fast jig retrieve can trigger aggressive strikes.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/64477"
+    },
+    {
+      "key": "olive_rockfish",
+      "common_name": "Olive Rockfish",
+      "scientific_name": "Sebastes serranoides",
+      "emoji": "🫒",
+      "category": "rockfish_nearshore",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62129349/medium.jpeg",
+      "natural_history": "Olive-green to brown with pale blotching. Nearly identical to yellowtail rockfish in appearance — distinguished by a rounded (not straight) anal fin edge. Highly residential species that stays close to its home reef. Common in kelp forests and over shallow to moderate-depth rocky structure. Aggressive feeders that readily take lures. Important recreational species in Monterey and Carmel Bay.",
+      "max_size": "24 inches, 5 lbs",
+      "max_age": "30 years",
+      "depth_range_ft": [
+        15,
+        200
+      ],
+      "fishing_zone": "nearshore / kelp",
+      "best_spots": [
+        "Carmel Bay kelp",
+        "Point Lobos",
+        "Lovers Point",
+        "Pescadero Point"
+      ],
+      "cdfw_bag_limit": "10 fish (RCG Complex aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31 (boat); year-round (shore/dive)",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "gear": {
+        "rod": "7 ft medium spinning or baitcasting, 15–25 lb class",
+        "reel": "3000–4000 class spinning or low-profile baitcaster",
+        "line": "30 lb braid, 15–20 lb fluorocarbon leader",
+        "leader": "15–20 lb fluorocarbon, 24 inches",
+        "hook": "1/0–3/0 j-hooks or jig heads",
+        "bait_or_lure": "Swimbaits, live anchovies, metal jigs, or squid. Takes topwater near kelp canopy."
+      },
+      "tips": "Schools with blue rockfish in kelp forests. Fight hard — expect them to dive into kelp. Work lures through mid-water columns over reefs. Very similar to yellowtail — check anal fin shape.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/317369"
+    },
+    {
+      "key": "vermilion_rockfish",
+      "common_name": "Vermilion Rockfish",
+      "scientific_name": "Sebastes miniatus",
+      "emoji": "🔴",
+      "category": "rockfish_shelf",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/134209886/medium.jpeg",
+      "natural_history": "Brilliant red to orange body with gray mottling, red fins that may be edged in black, and a rough lower jaw. One of the most prized rockfish for table quality — sweet, firm, white flesh. Found on rocky reefs from 20–800 ft, but most common 80–300 ft in Monterey. Can be solitary, in pairs, or small groups. Feeds on fish, squid, octopus, and krill. Subject to a 2-fish sub-bag limit (combined with sunset rockfish). First described from Santa Barbara and Monterey by Jordan & Gilbert in 1880.",
+      "max_size": "30 inches, 15 lbs",
+      "max_age": "60 years",
+      "depth_range_ft": [
+        20,
+        800
+      ],
+      "fishing_zone": "shelf / deep reef",
+      "best_spots": [
+        "Monterey Canyon East Wall",
+        "Carmel Pinnacles",
+        "Santa Lucia Bank",
+        "Point Lobos deep"
+      ],
+      "cdfw_bag_limit": "2 fish (vermilion/sunset sub-limit within 10-fish RCG aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "gear": {
+        "rod": "7 ft heavy conventional, 30–50 lb class",
+        "reel": "Medium conventional (Penn Squall 30, Avet MX) or electric",
+        "line": "50–65 lb braid, 30 lb fluorocarbon leader",
+        "leader": "30–40 lb fluorocarbon, 24 inches",
+        "hook": "3/0–5/0 j-hooks on dropper rigs",
+        "bait_or_lure": "Squid, cut mackerel, or large metal jigs (4–8 oz). Whole squid on dropper rig is deadly."
+      },
+      "tips": "Target rocky structure 100–250 ft. Vermilion are home-bodies — if you catch one, work the same spot. The 2-fish sub-limit means ID carefully. Use a descending device for released fish.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/64474"
+    },
+    {
+      "key": "chilipepper_rockfish",
+      "common_name": "Chilipepper Rockfish",
+      "scientific_name": "Sebastes goodei",
+      "emoji": "🌶️",
+      "category": "rockfish_shelf",
+      "image_url": "https://static.inaturalist.org/photos/365205356/medium.jpg",
+      "natural_history": "Pinkish-red body with a distinctive clear pink lateral line stripe running head to tail. Slender, elongated body compared to most rockfish. Schools in large aggregations over soft and mixed bottoms at 200–1000 ft. One of the most prolific deep-water species on Monterey party boats. Feeds on krill, small fish, and squid. Excellent eating — mild, sweet, firm white flesh. Named for the lateral line that resembles a chile pepper.",
+      "max_size": "22 inches, 6 lbs",
+      "max_age": "35 years",
+      "depth_range_ft": [
+        150,
+        1000
+      ],
+      "fishing_zone": "shelf / slope",
+      "best_spots": [
+        "Monterey Canyon East Wall",
+        "Santa Lucia Bank",
+        "Soquel Canyon flanks"
+      ],
+      "cdfw_bag_limit": "10 fish (RCG Complex aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "gear": {
+        "rod": "7 ft heavy conventional or electric reel rod, 40–60 lb class",
+        "reel": "Medium-large conventional or electric (Shimano Beastmaster, Penn Squall 40)",
+        "line": "65–80 lb braid, 30–40 lb fluorocarbon leader",
+        "leader": "30 lb fluorocarbon, 24 inches",
+        "hook": "3/0–5/0 j-hooks on multi-hook dropper rig with 8–12 oz sinker",
+        "bait_or_lure": "Squid strips, cut mackerel, or shrimp flies on dropper rigs. Metal jigs also effective."
+      },
+      "tips": "Often caught alongside bocaccio and widow rockfish in 200–400 ft. Schools can be enormous — when you find them, stay on the spot. Electric reel saves serious fatigue at these depths.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/64460"
+    },
+    {
+      "key": "bocaccio_rockfish",
+      "common_name": "Bocaccio",
+      "scientific_name": "Sebastes paucispinis",
+      "emoji": "👄",
+      "category": "rockfish_shelf",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/168880674/medium.jpg",
+      "natural_history": "One of the largest rockfish — up to 3 ft and 28 lbs. Distinctive elongated body with a very large mouth and protruding lower jaw. Color ranges from olive-brown to red depending on depth. Juveniles are lighter with brown speckling. Found 50–1000 ft over rocky and mixed bottom. Mid-water schooler that responds well to fast-worked jigs. Important commercial and recreational species. The Monterey submarine canyon is prime habitat. Southern population was once a species of concern but has recovered.",
+      "max_size": "36 inches, 28 lbs",
+      "max_age": "50 years",
+      "depth_range_ft": [
+        50,
+        1000
+      ],
+      "fishing_zone": "shelf / slope",
+      "best_spots": [
+        "Monterey Canyon East Wall",
+        "Santa Lucia Bank",
+        "Soquel Canyon"
+      ],
+      "cdfw_bag_limit": "10 fish (RCG Complex aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "gear": {
+        "rod": "7 ft heavy conventional or electric reel rod, 40–60 lb class",
+        "reel": "Medium-large conventional or electric",
+        "line": "65–80 lb braid, 30–40 lb fluorocarbon leader",
+        "leader": "30–40 lb fluorocarbon, 24 inches",
+        "hook": "4/0–6/0 j-hooks or large jig heads",
+        "bait_or_lure": "Large metal jigs (6–10 oz), whole squid, or live bait. Fast retrieve on butterfly jigs triggers strikes."
+      },
+      "tips": "Big bocaccio are trophy fish — hits hard and fights deep. Often the first fish on the drop in 200–400 ft. Watch for the line to stop sinking before you hit bottom. Use heavy enough gear to handle a big one.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/112421"
+    },
+    {
+      "key": "widow_rockfish",
+      "common_name": "Widow Rockfish",
+      "scientific_name": "Sebastes entomelas",
+      "emoji": "🖤",
+      "category": "rockfish_shelf",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12362575/medium.jpg",
+      "natural_history": "Bronze-brown to dark brown body, lighter ventrally. Relatively slender with sharp dorsal spines. Schools in large mid-water aggregations from 100–600 ft over rocky structure and canyon edges. One of the most abundant deep-water species in the Monterey catch. Feeds on krill, small fish, and jellyfish. Hits on the drop — often caught before your rig reaches bottom.",
+      "max_size": "24 inches, 4.5 lbs",
+      "max_age": "60 years",
+      "depth_range_ft": [
+        100,
+        600
+      ],
+      "fishing_zone": "shelf / mid-water",
+      "best_spots": [
+        "Monterey Canyon East Wall",
+        "Santa Lucia Bank",
+        "Carmel Bay deep"
+      ],
+      "cdfw_bag_limit": "10 fish (RCG Complex aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "gear": {
+        "rod": "7 ft heavy conventional or electric reel rod, 40–60 lb class",
+        "reel": "Medium-large conventional or electric",
+        "line": "65–80 lb braid, 30 lb fluorocarbon leader",
+        "leader": "25–30 lb fluorocarbon, 24 inches",
+        "hook": "2/0–4/0 j-hooks on dropper rigs",
+        "bait_or_lure": "Metal jigs (4–6 oz), squid strips, or shrimp flies on multi-hook dropper rigs."
+      },
+      "tips": "Mid-water species — watch your sounder for suspended schools and stop your drop there. If you reach bottom without a bite, reel up 30–50 ft and try again. Often mixed with yellowtail and chilipepper.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/64478"
+    },
+    {
+      "key": "canary_rockfish",
+      "common_name": "Canary Rockfish",
+      "scientific_name": "Sebastes pinniger",
+      "emoji": "🟠",
+      "category": "rockfish_shelf",
+      "image_url": "https://static.inaturalist.org/photos/149875693/medium.jpg",
+      "natural_history": "Bright orange to yellow body with gray mottling and three orange stripes across the head. Fins orange without black edges. Smooth chin (important to distinguish from vermilion — which has a rough chin). Found over rocky reefs from 60–800 ft. Historically overfished, now recovering. Subject to a 2-fish sub-bag limit statewide since 2025. Can be confused with yelloweye rockfish (prohibited) — check for smooth chin and orange fin edges.",
+      "max_size": "30 inches, 10 lbs",
+      "max_age": "84 years",
+      "depth_range_ft": [
+        60,
+        800
+      ],
+      "fishing_zone": "shelf / deep reef",
+      "best_spots": [
+        "Monterey Canyon East Wall",
+        "Santa Lucia Bank",
+        "Carmel Bay deep"
+      ],
+      "cdfw_bag_limit": "2 fish (canary sub-limit within 10-fish RCG aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "gear": {
+        "rod": "7 ft heavy conventional, 30–50 lb class",
+        "reel": "Medium conventional or electric",
+        "line": "50–65 lb braid, 30 lb fluorocarbon leader",
+        "leader": "25–30 lb fluorocarbon, 24 inches",
+        "hook": "3/0–5/0 j-hooks on dropper rigs",
+        "bait_or_lure": "Squid, cut mackerel, or metal jigs on dropper rigs."
+      },
+      "tips": "Beautiful fish — ID carefully. Smooth chin = canary. Rough chin = vermilion. Bright yellow with ragged fins = yelloweye (PROHIBITED — descend immediately). The 2-fish sub-limit is new for 2025.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/64465"
+    },
+    {
+      "key": "copper_rockfish",
+      "common_name": "Copper Rockfish",
+      "scientific_name": "Sebastes caurinus",
+      "emoji": "🟤",
+      "category": "rockfish_nearshore",
+      "image_url": "https://static.inaturalist.org/photos/153578953/medium.jpg",
+      "natural_history": "Highly variable coloration — dark reddish-brown with pale copper blotching to pinkish-brown with yellowish-white mottling. Distinctive light patch along the posterior two-thirds of the lateral line. Solitary, bottom-oriented, and extremely residential — tagging studies show they rarely move more than a mile from home. Found 10–200 ft over rocky reef and kelp. Excellent table quality. Subject to 1-fish sub-bag limit. Hybridizes with quillback and brown rockfish.",
+      "max_size": "26 inches, 10 lbs",
+      "max_age": "55 years",
+      "depth_range_ft": [
+        10,
+        200
+      ],
+      "fishing_zone": "nearshore / bottom reef",
+      "best_spots": [
+        "Point Lobos",
+        "Carmel Bay",
+        "Pescadero Point",
+        "Lovers Point reef"
+      ],
+      "cdfw_bag_limit": "1 fish (copper sub-limit within 10-fish RCG aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31 (boat); year-round (shore/dive)",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "gear": {
+        "rod": "6–7 ft medium-heavy conventional, 20–30 lb class",
+        "reel": "Small conventional (Penn Squall 15, Avet SX)",
+        "line": "30–40 lb braid, 20–25 lb fluorocarbon leader",
+        "leader": "20–25 lb fluorocarbon, 18–24 inches",
+        "hook": "2/0–4/0 j-hooks or circle hooks",
+        "bait_or_lure": "Squid, cut anchovy, live bait, or soft plastics near bottom structure."
+      },
+      "tips": "1-fish sub-limit — keep only your best one. Solitary fish that sit tight on their home reef. If you catch one, there won't be another on the same rock. Great eating but manage carefully.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/68597"
+    },
+    {
+      "key": "brown_rockfish",
+      "common_name": "Brown Rockfish",
+      "scientific_name": "Sebastes auriculatus",
+      "emoji": "🟫",
+      "category": "rockfish_nearshore",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110585605/medium.jpg",
+      "natural_history": "Light brown body with darker brown mottling and a distinctive dark blotch on the rear of the gill cover. Found in bays, harbors, and nearshore reefs from 5–400 ft. More tolerant of silty and low-visibility conditions than most rockfish. Common catch from piers, jetties, and shallow rocky areas. Feeds on shrimp, crabs, and small fish.",
+      "max_size": "22 inches, 6 lbs",
+      "max_age": "34 years",
+      "depth_range_ft": [
+        5,
+        400
+      ],
+      "fishing_zone": "nearshore / pier",
+      "best_spots": [
+        "Monterey Harbor",
+        "Municipal Wharf 2",
+        "Lovers Point",
+        "Carmel Bay"
+      ],
+      "cdfw_bag_limit": "10 fish (RCG Complex aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31 (boat); year-round (shore/dive)",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "gear": {
+        "rod": "7 ft medium spinning or conventional, 15–25 lb class",
+        "reel": "3000–4000 class spinning or small conventional",
+        "line": "20–30 lb braid, 15–20 lb fluorocarbon leader",
+        "leader": "15–20 lb fluorocarbon, 18 inches",
+        "hook": "1/0–3/0 j-hooks or baitholder hooks",
+        "bait_or_lure": "Squid strips, shrimp, cut anchovy, or small soft plastics near bottom."
+      },
+      "tips": "Look for the dark blotch on the gill cover for positive ID. Common bycatch when targeting other nearshore species. Good eating — don't overlook them.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/117541"
+    },
+    {
+      "key": "gopher_rockfish",
+      "common_name": "Gopher Rockfish",
+      "scientific_name": "Sebastes carnatus",
+      "emoji": "🟡",
+      "category": "rockfish_nearshore",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26238/medium.jpg",
+      "natural_history": "Olive-brown to reddish-brown body with pink to gray blotches on the upper half. Broken pale blotches along the lateral line. Found on rocky reef at the base of kelp beds from 40–280 ft. Territorial and solitary — defends a home area and keeps other rockfish out. Nocturnal predator that feeds on crabs, shrimp, small fish, and squid. Most common between Point Conception and Monterey Bay. Closely related to black-and-yellow rockfish.",
+      "max_size": "17 inches, 2.5 lbs",
+      "max_age": "30 years",
+      "depth_range_ft": [
+        40,
+        280
+      ],
+      "fishing_zone": "nearshore / reef",
+      "best_spots": [
+        "Point Lobos",
+        "Carmel Pinnacles",
+        "Pescadero Point",
+        "Lovers Point"
+      ],
+      "cdfw_bag_limit": "10 fish (RCG Complex aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31 (boat); year-round (shore/dive)",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "gear": {
+        "rod": "6–7 ft medium jigging rod, 15–25 lb class",
+        "reel": "Small conventional or 3000 class spinning",
+        "line": "30 lb braid, 20 lb fluorocarbon leader",
+        "leader": "15–20 lb fluorocarbon, 18 inches",
+        "hook": "1/0–3/0 j-hooks on dropper loop",
+        "bait_or_lure": "Squid, cut anchovy, live anchovies, or small jigs fished tight to structure."
+      },
+      "tips": "Territorial — each rock typically holds one gopher. Work structure methodically. Excellent eating and highly prized. Commonly caught alongside copper and china rockfish.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/64455"
+    },
+    {
+      "key": "china_rockfish",
+      "common_name": "China Rockfish",
+      "scientific_name": "Sebastes nebulosus",
+      "emoji": "🐉",
+      "category": "rockfish_nearshore",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101087663/medium.jpg",
+      "natural_history": "Black to blue-black body with bold yellow patches and a prominent yellow stripe from the dorsal fin along the lateral line to the tail. One of the most visually striking rockfish. Solitary and highly residential — stays on the same reef for years. Found in rocky crevices and holes from 10–420 ft, most common 40–150 ft. Feeds on crabs, shrimp, small fish, and brittle stars.",
+      "max_size": "17 inches, 4 lbs",
+      "max_age": "79 years",
+      "depth_range_ft": [
+        10,
+        420
+      ],
+      "fishing_zone": "nearshore / reef crevices",
+      "best_spots": [
+        "Point Lobos",
+        "Carmel Pinnacles",
+        "Pescadero Point"
+      ],
+      "cdfw_bag_limit": "10 fish (RCG Complex aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31 (boat); year-round (shore/dive)",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "gear": {
+        "rod": "6–7 ft medium conventional, 20–30 lb class",
+        "reel": "Small conventional (Penn Squall 15, Avet SX)",
+        "line": "30 lb braid, 20 lb fluorocarbon leader",
+        "leader": "20 lb fluorocarbon, 18 inches",
+        "hook": "1/0–3/0 j-hooks on dropper loop",
+        "bait_or_lure": "Squid strips, shrimp, or small jigs fished directly on structure."
+      },
+      "tips": "The yellow lateral stripe makes them unmistakable. Sit tight in crevices — drop bait right to the rock. Beautiful fish. Very long-lived — 79-year-olds have been documented.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/68618"
+    },
+    {
+      "key": "black_and_yellow_rockfish",
+      "common_name": "Black-and-Yellow Rockfish",
+      "scientific_name": "Sebastes chrysomelas",
+      "emoji": "🐝",
+      "category": "rockfish_nearshore",
+      "image_url": "https://static.inaturalist.org/photos/26537973/medium.jpg",
+      "natural_history": "Black body with prominent yellow blotches — like a bumblebee. Found in rocky reef crevices and kelp from the intertidal zone to 200 ft, most common 20–60 ft. Closely related to gopher rockfish. Solitary and territorial. Common shore and pier catch in Monterey. Small but feisty. Feeds on crabs, shrimp, and small invertebrates.",
+      "max_size": "15 inches, 2 lbs",
+      "max_age": "22 years",
+      "depth_range_ft": [
+        0,
+        200
+      ],
+      "fishing_zone": "nearshore / pier / shore",
+      "best_spots": [
+        "Lovers Point",
+        "Cannery Row rocks",
+        "Municipal Wharf 2",
+        "Point Lobos shore"
+      ],
+      "cdfw_bag_limit": "10 fish (RCG Complex aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31 (boat); year-round (shore/dive)",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "gear": {
+        "rod": "7–9 ft medium spinning (shore) or 6 ft light conventional (boat)",
+        "reel": "3000 class spinning or small conventional",
+        "line": "15–20 lb braid, 10–15 lb fluorocarbon leader",
+        "leader": "10–15 lb fluorocarbon, 18 inches",
+        "hook": "Size 1–2/0 baitholder or j-hooks",
+        "bait_or_lure": "Squid strips, shrimp, mussels, or small grubs near rocky structure."
+      },
+      "tips": "One of the most accessible rockfish from shore. Fish directly into rocky crevices. Small but beautiful — catch-and-release is wise. Often the first rockfish a shore angler catches in Monterey.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/64449"
+    },
+    {
+      "key": "grass_rockfish",
+      "common_name": "Grass Rockfish",
+      "scientific_name": "Sebastes rastrelliger",
+      "emoji": "🌿",
+      "category": "rockfish_nearshore",
+      "image_url": "https://static.inaturalist.org/photos/147160680/medium.jpg",
+      "natural_history": "Dark green to olive-brown body with darker mottling. Stocky build. Found in the shallowest rocky habitat of any rockfish — from tidepools to 150 ft, most common in very shallow rocky reef and eelgrass beds. Ambush predator that sits motionless and blends with vegetation. Feeds on crabs, shrimp, and small fish. Common shore catch.",
+      "max_size": "22 inches, 5 lbs",
+      "max_age": "24 years",
+      "depth_range_ft": [
+        0,
+        150
+      ],
+      "fishing_zone": "nearshore / shore / pier",
+      "best_spots": [
+        "Lovers Point",
+        "Cannery Row rocks",
+        "Carmel River Beach rocks",
+        "Pacific Grove tideline"
+      ],
+      "cdfw_bag_limit": "10 fish (RCG Complex aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31 (boat); year-round (shore/dive)",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "gear": {
+        "rod": "7–9 ft medium spinning (shore) or 6 ft light conventional (boat)",
+        "reel": "3000 class spinning or small conventional",
+        "line": "15–20 lb braid, 12–15 lb fluorocarbon leader",
+        "leader": "12–15 lb fluorocarbon, 18 inches",
+        "hook": "Size 1–2/0 j-hooks or baitholder hooks",
+        "bait_or_lure": "Squid, shrimp, mussels, or small crabs fished near or on the bottom in rocky areas."
+      },
+      "tips": "Lives right in the rocks where most anglers lose tackle. Use heavy enough gear to pull them out. Sit-and-wait predator — leave your bait still and they'll come to it.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/64446"
+    },
+    {
+      "key": "kelp_rockfish",
+      "common_name": "Kelp Rockfish",
+      "scientific_name": "Sebastes atrovirens",
+      "emoji": "🌊",
+      "category": "rockfish_nearshore",
+      "image_url": "https://static.inaturalist.org/photos/19890740/medium.jpg",
+      "natural_history": "Olive-brown to tan with brown mottling that perfectly camouflages among kelp fronds. Found perched on rocky structure and suspended in kelp canopy from 5–150 ft. One of the most common nearshore rockfish in Monterey — frequently seen by divers resting motionless on kelp blades. Feeds on small crustaceans and fish.",
+      "max_size": "17 inches, 3 lbs",
+      "max_age": "25 years",
+      "depth_range_ft": [
+        5,
+        150
+      ],
+      "fishing_zone": "nearshore / kelp",
+      "best_spots": [
+        "Carmel Bay kelp",
+        "Point Lobos",
+        "Lovers Point",
+        "Cannery Row kelp"
+      ],
+      "cdfw_bag_limit": "10 fish (RCG Complex aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31 (boat); year-round (shore/dive)",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "gear": {
+        "rod": "6–7 ft medium spinning, 10–20 lb class",
+        "reel": "2500–3000 class spinning",
+        "line": "20 lb braid, 12–15 lb fluorocarbon leader",
+        "leader": "12–15 lb fluorocarbon, 18 inches",
+        "hook": "Size 1–2/0 j-hooks",
+        "bait_or_lure": "Squid strips, small shrimp, or light jigs fished in and around kelp canopy."
+      },
+      "tips": "They sit still in kelp — dangle bait right next to the fronds. Common catch from kayaks fishing the kelp edges. Usually not large but contributes to a mixed bag.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/64481"
+    },
+    {
+      "key": "treefish",
+      "common_name": "Treefish",
+      "scientific_name": "Sebastes serriceps",
+      "emoji": "🌳",
+      "category": "rockfish_nearshore",
+      "image_url": "https://static.inaturalist.org/photos/150296892/medium.jpg",
+      "natural_history": "One of the most striking rockfish — yellow body with bold black or dark olive vertical bars. Found in rocky crevices and caves from 15–150 ft, usually solitary. More common south of Point Conception but occasionally caught in Monterey and Carmel Bay. Secretive and territorial — stays hidden in structure during the day. Feeds on crabs and shrimp.",
+      "max_size": "16 inches, 3.5 lbs",
+      "max_age": "25 years",
+      "depth_range_ft": [
+        15,
+        150
+      ],
+      "fishing_zone": "nearshore / reef crevices",
+      "best_spots": [
+        "Carmel Bay",
+        "Point Lobos",
+        "Pebble Beach shoreline"
+      ],
+      "cdfw_bag_limit": "10 fish (RCG Complex aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31 (boat); year-round (shore/dive)",
+      "cdfw_always_open": false,
+      "months_best": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "gear": {
+        "rod": "6–7 ft medium conventional, 20–30 lb class",
+        "reel": "Small conventional or 3000 class spinning",
+        "line": "30 lb braid, 20 lb fluorocarbon leader",
+        "leader": "20 lb fluorocarbon, 18 inches",
+        "hook": "1/0–3/0 j-hooks",
+        "bait_or_lure": "Squid strips or shrimp fished directly into rocky crevices."
+      },
+      "tips": "A rare and beautiful catch in Monterey — more common in warmer years. If you catch one, consider it a bonus. They hide deep in crevices so target tight structure.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/317370"
+    },
+    {
+      "key": "rosy_rockfish",
+      "common_name": "Rosy Rockfish",
+      "scientific_name": "Sebastes rosaceus",
+      "emoji": "🌸",
+      "category": "rockfish_shelf",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/147418335/medium.jpg",
+      "natural_history": "Small, deep-bodied rockfish with a pinkish-red to rosy body, often with purple blotching on the back. Found on deep rocky and mixed substrates from 24–1000 ft, most common 100–400 ft in Monterey. Small but frequently caught alongside larger shelf rockfish species. Not targeted due to small size but contributes to mixed bags.",
+      "max_size": "14 inches, 1.5 lbs",
+      "max_age": "30 years",
+      "depth_range_ft": [
+        24,
+        1000
+      ],
+      "fishing_zone": "shelf / deep reef",
+      "best_spots": [
+        "Monterey Canyon East Wall",
+        "Santa Lucia Bank",
+        "Carmel Bay deep"
+      ],
+      "cdfw_bag_limit": "10 fish (RCG Complex aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "gear": {
+        "rod": "7 ft heavy conventional, 30–50 lb class",
+        "reel": "Medium conventional or electric",
+        "line": "50–65 lb braid, 25–30 lb fluorocarbon leader",
+        "leader": "25 lb fluorocarbon, 18 inches",
+        "hook": "1/0–3/0 j-hooks on dropper rigs",
+        "bait_or_lure": "Squid strips, shrimp, or small jigs on dropper rigs."
+      },
+      "tips": "Beautiful pink fish that shows up in deep water drops. Small but tasty. Often caught on the bottom hooks of a dropper rig while targeting larger shelf rockfish above.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/317365"
+    },
+    {
+      "key": "greenspotted_rockfish",
+      "common_name": "Greenspotted Rockfish",
+      "scientific_name": "Sebastes chlorostictus",
+      "emoji": "💚",
+      "category": "rockfish_shelf",
+      "image_url": "https://static.inaturalist.org/photos/53044222/medium.png",
+      "natural_history": "Pinkish body with distinctive round green spots on the back and upper sides. Deep-bodied. Found on rocky and mixed bottoms from 150–1200 ft, most common 200–500 ft. A regular component of deeper Monterey party boat catches. Feeds on small crustaceans and fish.",
+      "max_size": "19 inches, 3 lbs",
+      "max_age": "50 years",
+      "depth_range_ft": [
+        150,
+        1200
+      ],
+      "fishing_zone": "shelf / slope",
+      "best_spots": [
+        "Monterey Canyon East Wall",
+        "Santa Lucia Bank"
+      ],
+      "cdfw_bag_limit": "10 fish (RCG Complex aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "gear": {
+        "rod": "7 ft heavy conventional or electric reel rod, 40–60 lb class",
+        "reel": "Medium-large conventional or electric",
+        "line": "65–80 lb braid, 30 lb fluorocarbon leader",
+        "leader": "25–30 lb fluorocarbon, 24 inches",
+        "hook": "2/0–4/0 j-hooks on dropper rigs",
+        "bait_or_lure": "Squid strips, cut mackerel, or shrimp flies on dropper rigs."
+      },
+      "tips": "Deep-water species — electric reel territory. The green spots make it unmistakable. Usually caught alongside chilipepper and other shelf species on deep drops.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/64469"
+    },
+    {
+      "key": "greenstriped_rockfish",
+      "common_name": "Greenstriped Rockfish",
+      "scientific_name": "Sebastes elongatus",
+      "emoji": "🟢",
+      "category": "rockfish_shelf",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/317470415/medium.jpg",
+      "natural_history": "Light pink body with distinctive horizontal green stripes along the sides. Elongated, slender body shape. Found on rocky and mixed bottoms from 80–1200 ft. Common bycatch in deep-water drops. Small but frequently encountered.",
+      "max_size": "15 inches, 1.5 lbs",
+      "max_age": "54 years",
+      "depth_range_ft": [
+        80,
+        1200
+      ],
+      "fishing_zone": "shelf / slope",
+      "best_spots": [
+        "Monterey Canyon East Wall",
+        "Santa Lucia Bank"
+      ],
+      "cdfw_bag_limit": "10 fish (RCG Complex aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "gear": {
+        "rod": "7 ft heavy conventional or electric reel rod, 40–60 lb class",
+        "reel": "Medium-large conventional or electric",
+        "line": "65–80 lb braid, 30 lb fluorocarbon leader",
+        "leader": "25–30 lb fluorocarbon, 24 inches",
+        "hook": "2/0–4/0 j-hooks on dropper rigs",
+        "bait_or_lure": "Squid strips, shrimp, or small jigs on dropper rigs."
+      },
+      "tips": "Small but easy to ID — green horizontal stripes on a pink body. Shows up regularly in deep-water mixed bags. Good eating despite size.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/230755"
+    },
+    {
+      "key": "squarespot_rockfish",
+      "common_name": "Squarespot Rockfish",
+      "scientific_name": "Sebastes hopkinsi",
+      "emoji": "⬜",
+      "category": "rockfish_shelf",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/404376405/medium.jpg",
+      "natural_history": "Small, brownish-pink rockfish with distinctive dark square-shaped spots on the back. Often found in mid-water schools over rocky structure from 80–900 ft. Named for Frederick Hopkins of Stanford's Hopkins Marine Station in Pacific Grove. Common in deeper Monterey drops but small in size.",
+      "max_size": "11 inches, 0.75 lbs",
+      "max_age": "16 years",
+      "depth_range_ft": [
+        80,
+        900
+      ],
+      "fishing_zone": "shelf / mid-water",
+      "best_spots": [
+        "Monterey Canyon East Wall",
+        "Carmel Bay deep"
+      ],
+      "cdfw_bag_limit": "10 fish (RCG Complex aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "gear": {
+        "rod": "7 ft heavy conventional, 30–50 lb class",
+        "reel": "Medium conventional or electric",
+        "line": "50–65 lb braid, 25 lb fluorocarbon leader",
+        "leader": "20–25 lb fluorocarbon, 18 inches",
+        "hook": "Size 1/0–2/0 j-hooks on dropper rigs",
+        "bait_or_lure": "Squid strips or shrimp flies on dropper rigs."
+      },
+      "tips": "Small fish — usually bycatch on deeper drops. Named after the Hopkins Marine Station right here in Pacific Grove. Release if targeting larger species.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/64451"
+    },
+    {
+      "key": "stripetail_rockfish",
+      "common_name": "Stripetail Rockfish",
+      "scientific_name": "Sebastes saxicola",
+      "emoji": "〰️",
+      "category": "rockfish_shelf",
+      "image_url": "https://static.inaturalist.org/photos/82444524/medium.jpg",
+      "natural_history": "Small, pinkish rockfish with green streaks on the head and distinctive green diagonal stripes on the tail fin — the key ID mark. Found on soft and mixed bottoms from 60–1200 ft. Common bycatch in deep-water drops. Schooling species.",
+      "max_size": "15 inches, 1.5 lbs",
+      "max_age": "26 years",
+      "depth_range_ft": [
+        60,
+        1200
+      ],
+      "fishing_zone": "shelf / slope",
+      "best_spots": [
+        "Monterey Canyon flanks",
+        "Santa Lucia Bank"
+      ],
+      "cdfw_bag_limit": "10 fish (RCG Complex aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "gear": {
+        "rod": "7 ft heavy conventional, 30–50 lb class",
+        "reel": "Medium conventional or electric",
+        "line": "50–65 lb braid, 25–30 lb fluorocarbon leader",
+        "leader": "25 lb fluorocarbon, 18 inches",
+        "hook": "1/0–3/0 j-hooks on dropper rigs",
+        "bait_or_lure": "Squid strips or shrimp on dropper rigs."
+      },
+      "tips": "Check the tail for green diagonal stripes — that's your ID. Small but common in deep mixed bags. Often found over softer bottom than other deep rockfish.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/230761"
+    },
+    {
+      "key": "starry_rockfish",
+      "common_name": "Starry Rockfish",
+      "scientific_name": "Sebastes constellatus",
+      "emoji": "⭐",
+      "category": "rockfish_shelf",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166897509/medium.jpg",
+      "natural_history": "Orange-red body covered in small white spots that look like a star field — the source of the species name constellatus. Found on rocky reefs from 80–900 ft. Solitary or in small groups on deep structure. More common south of Monterey but caught regularly in the bay's deeper areas. Beautiful fish.",
+      "max_size": "18 inches, 4 lbs",
+      "max_age": "32 years",
+      "depth_range_ft": [
+        80,
+        900
+      ],
+      "fishing_zone": "shelf / deep reef",
+      "best_spots": [
+        "Monterey Canyon East Wall",
+        "Santa Lucia Bank",
+        "Carmel Bay deep"
+      ],
+      "cdfw_bag_limit": "10 fish (RCG Complex aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "gear": {
+        "rod": "7 ft heavy conventional, 30–50 lb class",
+        "reel": "Medium conventional or electric",
+        "line": "50–65 lb braid, 30 lb fluorocarbon leader",
+        "leader": "25–30 lb fluorocarbon, 24 inches",
+        "hook": "2/0–4/0 j-hooks on dropper rigs",
+        "bait_or_lure": "Squid, cut mackerel, or metal jigs on dropper rigs."
+      },
+      "tips": "White star-like spots on an orange-red body — unmistakable. A beautiful bonus fish on deeper drops. Name literally means 'studded with stars.'",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/64453"
+    },
+    {
+      "key": "deacon_rockfish",
+      "common_name": "Deacon Rockfish",
+      "scientific_name": "Sebastes diaconus",
+      "emoji": "🔷",
+      "category": "rockfish_nearshore",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157057922/medium.jpg",
+      "natural_history": "Split from blue rockfish in 2015 based on genetic evidence. Brownish-blue to blue-gray body with small, relatively uniform dark speckles (vs. blue rockfish which has larger dark blotches). Schools in mid-water over rocky reefs and kelp from the surface to 300 ft. Can be very difficult to distinguish from blue rockfish in the field. More common in northern and central California.",
+      "max_size": "20 inches, 3 lbs",
+      "max_age": "45+ years",
+      "depth_range_ft": [
+        0,
+        300
+      ],
+      "fishing_zone": "nearshore / mid-water",
+      "best_spots": [
+        "Point Lobos kelp",
+        "Carmel Pinnacles",
+        "Lovers Point"
+      ],
+      "cdfw_bag_limit": "10 fish (RCG Complex aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31 (boat); year-round (shore/dive)",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "gear": {
+        "rod": "6–7 ft medium jigging rod, 15–25 lb class",
+        "reel": "Level-wind conventional or 3000–4000 spinning",
+        "line": "30 lb braid, 15–20 lb fluorocarbon leader",
+        "leader": "15–20 lb fluorocarbon, 18 inches",
+        "hook": "Size 1/0–2/0 j-hooks or sabiki rigs",
+        "bait_or_lure": "Squid strips, cut anchovy, shrimp flies, or small metal jigs."
+      },
+      "tips": "Practically identical to blue rockfish in the field. Look for fine uniform speckling vs. larger dark blotches to tell them apart. Same fishing techniques as blue rockfish.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/786409"
+    },
+    {
+      "key": "speckled_rockfish",
+      "common_name": "Speckled Rockfish",
+      "scientific_name": "Sebastes ovalis",
+      "emoji": "🟤",
+      "category": "rockfish_shelf",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/460814671/medium.jpg",
+      "natural_history": "Deep-bodied, oval-shaped rockfish — tan to pinkish with small dark brown speckles across the body. Found over rocky structure from 100–1300 ft. Schools in mid-water with other shelf rockfish like bocaccio, widow, and squarespot. Originally described from San Francisco. Feeds on krill, copepods, and zooplankton.",
+      "max_size": "22 inches, 2 lbs",
+      "max_age": "37 years",
+      "depth_range_ft": [
+        100,
+        1300
+      ],
+      "fishing_zone": "shelf / slope",
+      "best_spots": [
+        "Monterey Canyon East Wall",
+        "Santa Lucia Bank"
+      ],
+      "cdfw_bag_limit": "10 fish (RCG Complex aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "gear": {
+        "rod": "7 ft heavy conventional or electric, 40–60 lb class",
+        "reel": "Medium-large conventional or electric",
+        "line": "65–80 lb braid, 30 lb fluorocarbon leader",
+        "leader": "25–30 lb fluorocarbon, 24 inches",
+        "hook": "2/0–4/0 j-hooks on dropper rigs",
+        "bait_or_lure": "Squid strips, shrimp, or metal jigs on dropper rigs."
+      },
+      "tips": "Oval body shape and small brown speckles distinguish it. Shows up in deep-water mixed bags. Schools with bocaccio and widow rockfish.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/64461"
+    },
+    {
+      "key": "california_halibut",
+      "common_name": "California Halibut",
+      "scientific_name": "Paralichthys californicus",
+      "emoji": "🐟",
+      "category": "flatfish",
+      "image_url": "https://static.inaturalist.org/photos/66857424/medium.jpg",
+      "natural_history": "Flatfish found on sandy bottoms from Baja to Oregon. Ambush predators that bury themselves flush with the seafloor and explode upward at prey. Migrate into Monterey Bay shallows (20–60 ft) each spring for spawning. Prefer the edges of sand channels, kelp margins, and tidal flats.",
+      "max_size": "60 inches, 72 lbs",
+      "max_age": "30 years",
+      "depth_range_ft": [
+        20,
+        80
+      ],
+      "fishing_zone": "sandy bottom / flats",
+      "best_spots": [
+        "Pescadero Point",
+        "Moss Landing State Beach",
+        "Monterey Bay shallows"
+      ],
+      "cdfw_bag_limit": "5 fish (south of Point Sur)",
+      "cdfw_size_min": "22 inches",
+      "cdfw_season": "Year-round south of Point Sur",
+      "cdfw_always_open": true,
+      "months_best": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "gear": {
+        "rod": "6–7 ft medium-heavy conventional, 20–30 lb class",
+        "reel": "Low-profile baitcaster or small conventional (Avet SX, Penn Squall 15)",
+        "line": "30 lb mono or 40 lb braid with 30 lb fluorocarbon top-shot",
+        "leader": "30–40 lb fluorocarbon, 18–24 inches",
+        "hook": "3/0–5/0 live-bait or circle hooks",
+        "bait_or_lure": "Live anchovy, live squid, or small rockfish on slow drift over sandy bottom."
+      },
+      "tips": "Drift sandy flats 30–60 ft at slack tide. Keep bait moving — stationary bait gets ignored. Watch for dive-bomber strikes at the surface.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/108561"
+    },
+    {
+      "key": "lingcod",
+      "common_name": "Lingcod",
+      "scientific_name": "Ophiodon elongatus",
+      "emoji": "🦈",
+      "category": "groundfish",
+      "image_url": "https://static.inaturalist.org/photos/121620546/medium.jpg",
+      "natural_history": "Aggressive solitary ambush predator ranging from shallow kelp to 300+ ft on rocky structure. Male lingcod guard egg masses Jan–April, making them fiercely territorial and highly catchable near bottom structure. One of the most prized sport fish on the Central Coast.",
+      "max_size": "60 inches, 85 lbs",
+      "max_age": "25 years",
+      "depth_range_ft": [
+        50,
+        300
+      ],
+      "fishing_zone": "rocky structure / reef",
+      "best_spots": [
+        "Carmel Bay",
+        "Carmel Pinnacles",
+        "Point Lobos",
+        "Santa Lucia Bank"
+      ],
+      "cdfw_bag_limit": "2 fish",
+      "cdfw_size_min": "22 inches",
+      "cdfw_season": "Apr 1 – Dec 31 in Central MA",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "gear": {
+        "rod": "6–7 ft heavy jigging rod, 30–50 lb class",
+        "reel": "Medium conventional (Penn Squall 30, Avet MX)",
+        "line": "50 lb braid, 30 lb fluorocarbon leader",
+        "leader": "40–60 lb fluorocarbon, 24–36 inches — abrasion from teeth",
+        "hook": "4/0–6/0 j-hooks or jig-head for soft plastics",
+        "bait_or_lure": "Large soft plastics (6–9 in), swimbaits, or live greenling/small rockfish. Slow vertical jig near bottom."
+      },
+      "tips": "Work structure tight. Drop to bottom, lift 2 ft, repeat. Lingcod follow and hit on the pause. Use a large bait — they eat surprisingly big prey.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/52539"
+    },
+    {
+      "key": "cabezon",
+      "common_name": "Cabezon",
+      "scientific_name": "Scorpaenichthys marmoratus",
+      "emoji": "🪨",
+      "category": "groundfish",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112504004/medium.jpeg",
+      "natural_history": "The largest sculpin on the West Coast, reaching 25+ lbs. Ambush predators that camouflage perfectly among rocky reef. Males guard bright blue egg masses in winter, making them catchable near structure. Found 10–250 ft on rocky and kelp-covered reef.",
+      "max_size": "25 inches, 25 lbs",
+      "max_age": "18 years",
+      "depth_range_ft": [
+        20,
+        150
+      ],
+      "fishing_zone": "rocky reef / kelp",
+      "best_spots": [
+        "Point Lobos",
+        "Carmel Bay",
+        "Lovers Point reef"
+      ],
+      "cdfw_bag_limit": "10 fish (part of RCG Complex aggregate with rockfish and greenlings)",
+      "cdfw_size_min": "None (size limit eliminated Jan 2025; fillets must have entire skin attached)",
+      "cdfw_season": "Apr 1 – Dec 31 in Central MA",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "gear": {
+        "rod": "6–7 ft medium-heavy conventional, 20–30 lb class",
+        "reel": "Small conventional (Penn Squall 15, Avet SX)",
+        "line": "30–40 lb braid with 25 lb fluorocarbon leader",
+        "leader": "25–40 lb fluorocarbon, 18–24 inches",
+        "hook": "3/0–5/0 j-hooks or circle hooks",
+        "bait_or_lure": "Live bait, squid, octopus, or crabs. Also takes paddle-tail soft plastics on slow retrieve near bottom."
+      },
+      "tips": "Target rocky points with kelp. Drop bait directly to structure — cabezon rarely swim far to feed. Set hook firm immediately on bite. NEVER eat the eggs — they are toxic.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/47638"
+    },
+    {
+      "key": "dungeness_crab",
+      "common_name": "Dungeness Crab",
+      "scientific_name": "Metacarcinus magister",
+      "emoji": "🦀",
+      "category": "crustacean",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446850127/medium.jpg",
+      "natural_history": "Premier West Coast crab prized for its sweet, dense meat. Found from intertidal to 300 ft on sandy and muddy bottoms. Males reach 6+ inch carapace and moult annually. Monterey Bay hosts strong populations; season runs Nov–June with domoic acid monitoring.",
+      "max_size": "10 inch carapace, 4 lbs",
+      "max_age": "13 years",
+      "depth_range_ft": [
+        30,
+        200
+      ],
+      "fishing_zone": "sandy/muddy bottom",
+      "best_spots": [
+        "Moss Landing",
+        "Monterey Bay sandy bottom 30–80 ft",
+        "Outside the harbor"
+      ],
+      "cdfw_bag_limit": "10 crabs",
+      "cdfw_size_min": "5.75 inches (carapace)",
+      "cdfw_season": "Nov 1, 2025 – Jun 30, 2026",
+      "cdfw_always_open": false,
+      "months_best": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "gear": {
+        "rod": "N/A — hoop nets or crab pots from the boat",
+        "reel": "N/A",
+        "line": "3/8 in poly rope, 100–150 ft length",
+        "leader": "N/A",
+        "hook": "N/A",
+        "bait_or_lure": "Chicken, turkey, squid, or commercial crab bait in mesh bait bag. Salted bait lasts longer."
+      },
+      "tips": "Soak pots/hoops 30–60 min minimum. Sandy bottom 40–80 ft is prime. Always check domoic acid status. Measure carapace width carefully — undersized crab is a ticket.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/63697"
+    },
+    {
+      "key": "pacific_sanddab",
+      "common_name": "Pacific Sanddab",
+      "scientific_name": "Citharichthys sordidus",
+      "emoji": "🍽️",
+      "category": "flatfish",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/128255332/medium.jpeg",
+      "natural_history": "Small flatfish rated as one of the best-eating fish in California. Abundant on sandy bottoms 60–300 ft throughout Monterey Bay. Highly responsive to bait; school tightly over soft bottom. Great table fare — often the most reliable catch on any given trip.",
+      "max_size": "16 inches, 2 lbs",
+      "max_age": "10 years",
+      "depth_range_ft": [
+        60,
+        300
+      ],
+      "fishing_zone": "sandy bottom",
+      "best_spots": [
+        "Monterey Canyon flanks",
+        "Sandy bottom 80–200 ft anywhere in the Bay"
+      ],
+      "cdfw_bag_limit": "No limit on Pacific sanddab (CCR §28.48)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Year-round at all depths",
+      "cdfw_always_open": true,
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "gear": {
+        "rod": "6 ft light conventional or spinning, 10–15 lb class",
+        "reel": "Small conventional (Penn 209, Avet SX) or spinning reel",
+        "line": "20–30 lb braid, 15 lb fluorocarbon leader",
+        "leader": "15 lb fluorocarbon, 18 inches per dropper",
+        "hook": "Size 4–6 baitholder or circle hooks — small hooks critical",
+        "bait_or_lure": "Small squid strips, shrimp, or cut anchovy. 2–3 hook dropper rig with 4–6 oz sinker."
+      },
+      "tips": "Keep the rig barely moving along the bottom. Small bites — feel a tap and lift. Multiple fish per drop is common. Perfect backup when conditions are tough.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/48415"
+    },
+    {
+      "key": "surfperch",
+      "common_name": "Surfperch",
+      "scientific_name": "Family Embiotocidae",
+      "emoji": "🌊",
+      "category": "surfzone",
+      "image_url": "https://static.inaturalist.org/photos/146509027/medium.jpg",
+      "natural_history": "Common nearshore species found in the surf zone and shallow reef from the waterline to 30 ft. Live-bearing fish that birth pups in spring, then feed voraciously to recover. Fast, aggressive bite from shore or shallow-draft boat. Redtail surfperch and rubberlip perch are Monterey favorites.",
+      "max_size": "17 inches, 4 lbs (redtail)",
+      "max_age": "14 years",
+      "depth_range_ft": [
+        2,
+        30
+      ],
+      "fishing_zone": "surf zone / shore",
+      "best_spots": [
+        "Carmel River Beach",
+        "Asilomar State Beach",
+        "Marina State Beach",
+        "Sunset State Beach"
+      ],
+      "cdfw_bag_limit": "20 fish (combined), max 10 of one species",
+      "cdfw_size_min": "10.5 inches (redtail surfperch)",
+      "cdfw_season": "Year-round",
+      "cdfw_always_open": true,
+      "months_best": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "gear": {
+        "rod": "9–11 ft surf rod, medium power (also works from boat on light spinning gear)",
+        "reel": "Medium spinning reel (4000–5000 class)",
+        "line": "20 lb braid with 12 lb fluorocarbon leader",
+        "leader": "10–15 lb fluorocarbon, 24 inches",
+        "hook": "Size 2–4 baitholder, circle hooks, or small grubs on 1/8 oz jig head",
+        "bait_or_lure": "Sand crabs (best), bloodworms, fresh mussels, or small sand shrimp. Berkley Gulp sand crab works well."
+      },
+      "tips": "Wade in waist-deep and cast just past the wave break. Sand crabs dug from the wet sand edge are the #1 bait. Work incoming tide for best results.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/117552"
+    },
+    {
+      "key": "white_seabass",
+      "common_name": "White Seabass",
+      "scientific_name": "Atractoscion nobilis",
+      "emoji": "🐋",
+      "category": "pelagic",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17872930/medium.jpg",
+      "natural_history": "Large croaker — Monterey's most prized inshore fish. Found in kelp beds and rocky reefs, reaching 80+ lbs. Crepuscular feeder, most active at dawn and dusk. Makes a distinctive croaking sound. Listed as a key recovery species — each release of an undersized fish helps the population.",
+      "max_size": "60 inches, 83 lbs",
+      "max_age": "28 years",
+      "depth_range_ft": [
+        20,
+        100
+      ],
+      "fishing_zone": "kelp / inshore",
+      "best_spots": [
+        "Carmel Bay kelp",
+        "Point Lobos kelp forest",
+        "Pescadero Point kelp edge"
+      ],
+      "cdfw_bag_limit": "3 fish",
+      "cdfw_size_min": "28 inches",
+      "cdfw_season": "Year-round",
+      "cdfw_always_open": true,
+      "months_best": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "gear": {
+        "rod": "7–8 ft medium-heavy conventional or spinning, 20–30 lb class",
+        "reel": "Medium conventional or 6000 class spinning",
+        "line": "40 lb braid, 25 lb fluorocarbon leader",
+        "leader": "20–25 lb fluorocarbon, 36–48 inches — long leader is critical",
+        "hook": "3/0–5/0 live-bait hooks, Owner SSW or similar",
+        "bait_or_lure": "Live squid (best), live mackerel, or sardines fished under kelp canopy. Slow sink presentation."
+      },
+      "tips": "Work kelp edges at first light or last 2 hours of day. Live squid nose-hooked and let to swim naturally. Move quietly — they spook easily.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/94840"
+    },
+    {
+      "key": "leopard_shark",
+      "common_name": "Leopard Shark",
+      "scientific_name": "Triakis semifasciata",
+      "emoji": "🦈",
+      "category": "shark",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/520058171/medium.jpg",
+      "natural_history": "Striking patterned shark abundant in Monterey Bay's shallow sandy and muddy flats. Completely harmless to humans — feeds on crabs, worms, and small fish. Aggregates in warm shallow water (< 20 ft) in summer, often in large schools. Catch-and-release is standard practice.",
+      "max_size": "72 inches, 40 lbs",
+      "max_age": "30 years",
+      "depth_range_ft": [
+        5,
+        40
+      ],
+      "fishing_zone": "shallow flats / sloughs",
+      "best_spots": [
+        "Moss Landing Harbor mouth",
+        "Salinas River flats",
+        "Elkhorn Slough entrance"
+      ],
+      "cdfw_bag_limit": "3 fish",
+      "cdfw_size_min": "36 inches",
+      "cdfw_season": "Year-round",
+      "cdfw_always_open": true,
+      "months_best": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "gear": {
+        "rod": "7–9 ft medium spinning, 15–20 lb class",
+        "reel": "4000–5000 class spinning reel",
+        "line": "30 lb braid with 40 lb fluorocarbon leader",
+        "leader": "40 lb fluorocarbon, 18 inches — sharks have rough skin",
+        "hook": "3/0–5/0 circle hooks (for easy, safe release)",
+        "bait_or_lure": "Fresh squid, ghost shrimp, or mackerel fished on bottom on sandy flat."
+      },
+      "tips": "No weight needed in shallow water — let the bait sit on the bottom. Circle hooks make safe no-touch release easy. Great family fishing experience in calm conditions.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/52297"
+    },
+    {
+      "key": "striped_bass",
+      "common_name": "Striped Bass",
+      "scientific_name": "Morone saxatilis",
+      "emoji": "⚡",
+      "category": "pelagic",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175377771/medium.jpg",
+      "natural_history": "Non-native but established sport fish in California. Found in the lower Salinas River, Elkhorn Slough, and occasionally Monterey Bay proper. Migratory fish that travel between the Delta and coastal bays. Aggressive surface feeder — one of the most exciting light-tackle fish available.",
+      "max_size": "60 inches, 80 lbs",
+      "max_age": "30 years",
+      "depth_range_ft": [
+        1,
+        25
+      ],
+      "fishing_zone": "sloughs / river mouths / surf",
+      "best_spots": [
+        "Elkhorn Slough",
+        "Salinas River mouth",
+        "Moss Landing harbor"
+      ],
+      "cdfw_bag_limit": "2 fish over 18 inches",
+      "cdfw_size_min": "18 inches",
+      "cdfw_season": "Year-round (ocean)",
+      "cdfw_always_open": true,
+      "months_best": [
+        4,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "gear": {
+        "rod": "7–9 ft medium-heavy spinning or baitcasting, 15–25 lb class",
+        "reel": "4000–6000 class spinning or low-profile baitcaster",
+        "line": "30 lb braid with 20 lb fluorocarbon leader",
+        "leader": "15–20 lb fluorocarbon, 24–36 inches",
+        "hook": "3/0–5/0 for live bait; 1/0–3/0 trebles on lures",
+        "bait_or_lure": "Live anchovies or shad, swimbaits, topwater lures at dawn. Kastmaster spoons in silver are proven."
+      },
+      "tips": "Fish the tide change at slough mouths. Topwater early morning for explosive strikes. Stripers move through fast — when you mark fish, work the spot hard.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/51392"
+    },
+    {
+      "key": "jacksmelt",
+      "common_name": "Jacksmelt",
+      "scientific_name": "Atherinopsis californiensis",
+      "emoji": "🌀",
+      "category": "nearshore",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/440510564/medium.jpeg",
+      "natural_history": "Schooling nearshore fish abundant in Monterey Bay. Fast-moving silverside found in harbors, kelp canopy, and shallow water. Easy to target with sabiki rigs or small hooks. Excellent bait for larger species — also surprisingly good eating, especially fried whole.",
+      "max_size": "22 inches, 1.5 lbs",
+      "max_age": "9 years",
+      "depth_range_ft": [
+        2,
+        20
+      ],
+      "fishing_zone": "harbor / pier / surface",
+      "best_spots": [
+        "Monterey Harbor dock walls",
+        "Municipal Wharf 2",
+        "Cannery Row kelp"
+      ],
+      "cdfw_bag_limit": "25 fish",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Year-round",
+      "cdfw_always_open": true,
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "gear": {
+        "rod": "7 ft light spinning, 8–12 lb class",
+        "reel": "2500–3000 class spinning reel",
+        "line": "15 lb braid, 8 lb fluorocarbon leader",
+        "leader": "8–10 lb fluorocarbon, 18 inches",
+        "hook": "Size 6–10 sabiki rig (gold hook, small flasher)",
+        "bait_or_lure": "Sabiki rig with small piece of squid or shrimp. Cast near structure and slowly retrieve through school."
+      },
+      "tips": "Look for birds working the surface over schools. Throw a float with small hooks and krill for a simple approach. Keep them alive in a bucket as bait for halibut.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/94802"
+    },
+    {
+      "key": "kelp_bass",
+      "common_name": "Kelp Bass (Calico Bass)",
+      "scientific_name": "Paralabrax clathratus",
+      "emoji": "🪸",
+      "category": "nearshore",
+      "image_url": "https://static.inaturalist.org/photos/37051188/medium.jpg",
+      "natural_history": "Structure-oriented bass found in and around kelp forests. Aggressive surface feeders that readily attack topwater lures and swimbaits. More common south of Pt. Conception but increasing in Monterey Bay as waters warm. Beautiful fish — protect large breeding females.",
+      "max_size": "28 inches, 14 lbs",
+      "max_age": "34 years",
+      "depth_range_ft": [
+        10,
+        60
+      ],
+      "fishing_zone": "kelp / rocky structure",
+      "best_spots": [
+        "Carmel Bay kelp",
+        "Point Lobos kelp edge",
+        "Pebble Beach shoreline"
+      ],
+      "cdfw_bag_limit": "5 fish (combined with barred sand bass and spotted sand bass)",
+      "cdfw_size_min": "14 inches",
+      "cdfw_season": "Year-round",
+      "cdfw_always_open": true,
+      "months_best": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "gear": {
+        "rod": "7 ft medium baitcasting or spinning, 15–20 lb class",
+        "reel": "Low-profile baitcaster or 3000 class spinning",
+        "line": "30 lb braid with 15 lb fluorocarbon leader",
+        "leader": "12–15 lb fluorocarbon, 24 inches",
+        "hook": "2/0–4/0 for swimbaits; 3/0 wide gap for plastics",
+        "bait_or_lure": "3–5 inch swimbaits, topwater poppers at dawn, live anchovies, or 3 in grubs in natural colors."
+      },
+      "tips": "Cast into kelp edges and work lure back toward open water. Dawn topwater bite can be spectacular in summer. Target fish holding just below the canopy.",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/108547"
+    },
+    {
+      "key": "opaleye",
+      "common_name": "Opaleye",
+      "scientific_name": "Girella nigricans",
+      "emoji": "👁️",
+      "category": "nearshore",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9430036/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/81963",
+      "natural_history": "Olive-green to gray-green perch-shaped fish with brilliant opalescent blue-green eyes — the source of its name. Usually has two pale spots on the upper back below the dorsal fin and often a white bar across the snout. Primarily herbivorous, feeding on algae and seagrass, but also takes small crustaceans and worms. Found in large schools over rocky reef and kelp beds from tidepools to 100 ft. Juveniles live in tidepools for 1–2 years before moving to deeper water. More common south of Point Conception but a resident population exists at the Monterey Coast Guard Pier. The IGFA world record was caught in Monterey. Can breathe air and survive out of water for hours if kept moist.",
+      "max_size": "26 inches, 13.5 lbs",
+      "max_age": "10 years",
+      "depth_range_ft": [
+        0,
+        100
+      ],
+      "fishing_zone": "nearshore / pier / rocky shore",
+      "best_spots": [
+        "Monterey Coast Guard Pier",
+        "Lovers Point",
+        "Cannery Row rocks",
+        "Municipal Wharf 2"
+      ],
+      "cdfw_bag_limit": "10 fish (within 20-fish general finfish limit)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Year-round",
+      "cdfw_always_open": true,
+      "months_best": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "gear": {
+        "rod": "7–9 ft medium spinning, 8–15 lb class",
+        "reel": "2500–4000 class spinning reel",
+        "line": "8–10 lb fluorocarbon (line-shy — light line is critical)",
+        "leader": "6–8 lb fluorocarbon, 24–36 inches",
+        "hook": "Size 6–2 small baitholder or short-shank hooks",
+        "bait_or_lure": "Frozen peas (best — chum with a handful first), green moss/sea lettuce, fresh mussels, bloodworms, or ghost shrimp. Small hooks are essential."
+      },
+      "tips": "Chum with frozen peas to attract a school, then hook a single frozen pea. Must be frozen so they can't nibble it off. Use a slip float to present bait 5–10 ft below the surface. Very line-shy — go as light as possible. Extremely wary older fish require patience. They fight hard and dive for kelp immediately — don't let them get into the weeds."
+    },
+    {
+      "key": "kelp_greenling",
+      "common_name": "Kelp Greenling",
+      "scientific_name": "Hexagrammos decagrammus",
+      "emoji": "🐊",
+      "category": "groundfish",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117750924/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/68596",
+      "natural_history": "Strikingly sexually dimorphic — males are gray-brown with sky-blue spots ringed in rust, while females are gray-brown uniformly covered in reddish-brown spots. One of the few fish with 5 lateral lines on each side (10 total — the source of the species name decagrammus, meaning 'ten lines'). Found on rocky reefs, kelp beds, and around jetties from tidepools to 150 ft. Solitary and territorial. Males guard egg nests. Feeds on crabs, shrimp, worms, brittle stars, and small fish. Most common in central and northern California. Part of the RCG Complex — same season and regulations as rockfish and cabezon. Tasty flesh prized in the live-fish market.",
+      "max_size": "21 inches, 3.5 lbs",
+      "max_age": "16 years",
+      "depth_range_ft": [
+        0,
+        150
+      ],
+      "fishing_zone": "nearshore / rocky reef / kelp",
+      "best_spots": [
+        "Point Lobos",
+        "Lovers Point",
+        "Carmel Bay",
+        "Cannery Row rocks",
+        "Monterey Harbor breakwater"
+      ],
+      "cdfw_bag_limit": "10 fish (RCG Complex aggregate with rockfish and cabezon)",
+      "cdfw_size_min": "None (size limit eliminated Jan 2025; fillets must have entire skin attached)",
+      "cdfw_season": "Apr 1 – Dec 31 (boat); year-round (shore/dive)",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "gear": {
+        "rod": "6–7 ft medium spinning or conventional, 10–20 lb class",
+        "reel": "2500–3000 class spinning or small conventional",
+        "line": "15–20 lb braid, 12–15 lb fluorocarbon leader",
+        "leader": "12–15 lb fluorocarbon, 18–24 inches",
+        "hook": "Size 1–2/0 j-hooks or baitholder hooks",
+        "bait_or_lure": "Squid strips, shrimp, mussels, clams, cut fish, crab backs, or feathered jigs tipped with squid."
+      },
+      "tips": "Fish directly on rocky structure — they live tight to the bottom. Once hooked they'll immediately try to entangle your line in rocks or kelp. Scrappy fighters. Males with blue spots are one of the most beautiful fish in Monterey Bay. Common bycatch when targeting rockfish from shore."
+    },
+    {
+      "key": "ocean_whitefish",
+      "common_name": "Ocean Whitefish",
+      "scientific_name": "Caulolatilus princeps",
+      "emoji": "🐡",
+      "category": "nearshore",
+      "image_url": "https://static.inaturalist.org/photos/150344204/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/49168",
+      "natural_history": "Elongated tilefish with a long continuous dorsal fin running nearly the entire body length. Yellow-brown back fading to white below, with distinctive blue and yellow banding on the dorsal and anal fins. Found in loose aggregations over rocky reefs, kelp beds, and sandy/muddy bottoms from 30–620 ft, most common 80–200 ft. Feeds on crabs, shrimp, octopus, squid, and small fish like anchovies. Slow-growing. More common south of Point Conception but caught occasionally in Monterey and Carmel Bay, especially in warmer water years. Excellent eating from deep water — fish caught in shallow kelp beds can sometimes have a bitter taste from their diet. Be careful handling — very sharp serrated gill plates.",
+      "max_size": "40 inches, 14 lbs",
+      "max_age": "13 years",
+      "depth_range_ft": [
+        30,
+        620
+      ],
+      "fishing_zone": "reef / deep structure",
+      "best_spots": [
+        "Carmel Bay deep",
+        "Monterey Canyon structure",
+        "Santa Lucia Bank"
+      ],
+      "cdfw_bag_limit": "10 fish (within 20-fish general finfish limit; no minimum size)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Year-round at all depths",
+      "cdfw_always_open": true,
+      "months_best": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "gear": {
+        "rod": "7 ft medium-heavy conventional, 20–40 lb class",
+        "reel": "Medium conventional (Penn Squall 15–30)",
+        "line": "40–50 lb braid, 20–25 lb fluorocarbon leader",
+        "leader": "20–25 lb fluorocarbon, 24 inches",
+        "hook": "Size 2–2/0 j-hooks or reverse dropper loop rig",
+        "bait_or_lure": "Fresh squid strips (best — 4 inch strips), ghost shrimp, mussels, or small live bait. Reverse dropper loop rig (hook on bottom, sinker on dropper above) is deadly."
+      },
+      "tips": "Usually feeds 4–6 ft off bottom — a reverse dropper rig keeps your bait at the right height. Uncommon in Monterey but shows up in warmer years over deeper structure. Watch those gill plates when handling — they will cut you. Good eating from deep water; skin before cooking to avoid iodine flavor."
+    },
+    {
+      "key": "sablefish",
+      "common_name": "Sablefish (Black Cod)",
+      "scientific_name": "Anoplopoma fimbria",
+      "emoji": "🖤",
+      "category": "groundfish",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10368966/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/51353",
+      "natural_history": "Deep-water species also known as black cod or butterfish — one of the finest eating fish in the Pacific. Elongated, cod-shaped body that is blackish-gray to greenish-gray on the back, fading to white below. Two widely spaced dorsal fins. Adults live in deep water over mud and clay bottoms at 600–5,000+ ft, but juveniles occasionally appear in shallow nearshore areas and have been caught from Monterey Wharf. Famous 1938 event saw thousands of juvenile sablefish caught from Monterey Municipal Pier. Feeds on fish, squid, and crustaceans. Prized commercially for its rich, buttery, high-fat flesh — exceptional when smoked. One of the most valuable commercial fish on the West Coast.",
+      "max_size": "46 inches, 56 lbs",
+      "max_age": "94 years",
+      "depth_range_ft": [
+        600,
+        9000
+      ],
+      "fishing_zone": "deep slope / canyon",
+      "best_spots": [
+        "Monterey Canyon deep",
+        "Santa Lucia Bank deep",
+        "Soquel Canyon deep"
+      ],
+      "cdfw_bag_limit": "10 fish (within 20-fish general finfish limit; no more than 10 of one species)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Year-round at all depths",
+      "cdfw_always_open": true,
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "gear": {
+        "rod": "Heavy conventional or electric reel rod, 50–80 lb class",
+        "reel": "Large electric reel (Shimano Beastmaster 9000) or heavy conventional",
+        "line": "80–130 lb braid (essential at extreme depth)",
+        "leader": "60–80 lb mono or fluorocarbon, 36 inches",
+        "hook": "6/0–8/0 circle hooks on heavy dropper rig with 2–4 lb sinker",
+        "bait_or_lure": "Squid, cut mackerel, or sardine on heavy bottom rig. Weight must hold in deep current."
+      },
+      "tips": "True deep-water species — you're fishing 600–1500 ft minimum. Electric reel is essential. Monterey Canyon provides access to these depths within a reasonable run from the harbor. Buttery, rich flesh is among the best eating of any Pacific fish. Juveniles occasionally show up at Monterey Wharf but adults require serious deep-water gear."
+    },
+    {
+      "key": "california_sheephead",
+      "common_name": "California Sheephead",
+      "scientific_name": "Semicossyphus pulcher",
+      "emoji": "🐑",
+      "category": "nearshore",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106228676/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/1439813",
+      "natural_history": "One of California's most distinctive fish — a large wrasse that is a sequential hermaphrodite: all fish are born female and transition to male as they grow. Females are pinkish-red. Males have a black head and tail with a wide red-orange mid-body band and a prominent forehead bump. Powerful jaws with protruding canine teeth used to crush sea urchins, crabs, mussels, and lobster. Found over rocky reef and kelp from 10–280 ft. Important ecologically — their urchin predation helps protect kelp forests. More common south of Point Conception but caught in Monterey and Carmel Bay, particularly in warmer water years.",
+      "max_size": "36 inches, 36 lbs",
+      "max_age": "53 years",
+      "depth_range_ft": [
+        10,
+        280
+      ],
+      "fishing_zone": "rocky reef / kelp",
+      "best_spots": [
+        "Carmel Bay",
+        "Point Lobos",
+        "Pebble Beach shoreline"
+      ],
+      "cdfw_bag_limit": "2 fish",
+      "cdfw_size_min": "12 inches",
+      "cdfw_season": "Year-round (shore/dive); Mar 1 – Dec 31 (boat-based in Central MA)",
+      "cdfw_always_open": false,
+      "months_best": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "gear": {
+        "rod": "7 ft medium-heavy conventional or spinning, 20–30 lb class",
+        "reel": "Small-medium conventional or 4000 class spinning",
+        "line": "30–40 lb braid, 25 lb fluorocarbon leader",
+        "leader": "25–30 lb fluorocarbon, 24 inches (abrasion-resistant for reef)",
+        "hook": "2/0–4/0 j-hooks or circle hooks",
+        "bait_or_lure": "Live or fresh shrimp, sea urchin, mussels, crabs, squid, or cut fish near bottom structure."
+      },
+      "tips": "Uncommon in Monterey but shows up in warmer years. Powerful crushers — they'll bite through light leaders on reef. All are born female and become male — large males with the black head are the breeders. Boat-based season is closed Jan–Feb. Good eating but manage carefully due to slow growth and sex-change life history."
+    },
+    {
+      "key": "chinook_salmon",
+      "common_name": "Chinook Salmon (King Salmon)",
+      "scientific_name": "Oncorhynchus tshawytscha",
+      "emoji": "👑",
+      "category": "pelagic",
+      "image_url": "https://static.inaturalist.org/photos/243843533/medium.jpeg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/54191",
+      "natural_history": "The largest Pacific salmon species and the premier game fish of Monterey Bay. Chrome-bright ocean fish with small black spots on the back, dorsal fin, and both lobes of the tail. Black gums on the lower jaw (key ID feature vs. coho). Monterey Bay fish are primarily Sacramento River fall-run Chinook that feed in the rich waters of the Monterey submarine canyon. Fish range from 5–50+ lbs with trophy fish exceeding 30 lbs. Anadromous — born in freshwater rivers, migrate to ocean to grow, return to spawn and die. California salmon stocks have been severely impacted by drought, habitat loss, and ocean condition changes, leading to extremely limited seasons in recent years.",
+      "max_size": "58 inches, 130 lbs (CA record ~88 lbs)",
+      "max_age": "7 years (typically 3–5)",
+      "depth_range_ft": [
+        10,
+        200
+      ],
+      "fishing_zone": "open ocean / pelagic",
+      "best_spots": [
+        "Monterey Bay open water",
+        "Soquel Hole",
+        "Point Pinos to Moss Landing",
+        "Off Santa Cruz"
+      ],
+      "cdfw_bag_limit": "2 Chinook per day (when open; 20-inch minimum; barbless hooks required; coho retention PROHIBITED)",
+      "cdfw_size_min": "20 inches total length",
+      "cdfw_season": "Highly restricted — season set annually by PFMC, typically very limited windows Jun–Oct. ALWAYS check CDFW Ocean Salmon page before fishing. 2026 season TBD (announced ~April 2026).",
+      "cdfw_always_open": false,
+      "months_best": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "gear": {
+        "rod": "7–8 ft medium-heavy trolling or mooching rod, 20–30 lb class",
+        "reel": "Level-wind conventional with good drag (Penn Squall 20–30, Avet SX)",
+        "line": "30 lb mono or 40 lb braid with 25 lb fluorocarbon top-shot",
+        "leader": "20–25 lb fluorocarbon, 6–10 ft (long leaders critical)",
+        "hook": "3/0–5/0 barbless circle or octopus hooks (BARBLESS REQUIRED)",
+        "bait_or_lure": "Trolled whole anchovies behind flashers/dodgers, mooched live anchovies, or trolled spoons/hoochies. Downriggers for depth control."
+      },
+      "tips": "Season is extremely limited and changes every year — check CDFW before every trip. Barbless hooks are REQUIRED while salmon fishing. Coho retention is PROHIBITED — learn to tell them apart (Chinook = black gums, spots on both tail lobes; coho = white gums, spots on upper lobe only). Troll at 2–3 mph with downriggers at 40–80 ft. When mooching, drift with live anchovies at 30–60 ft. Expect crowds on opening weekends."
+    },
+    {
+      "key": "coho_salmon",
+      "common_name": "Coho Salmon (Silver Salmon)",
+      "scientific_name": "Oncorhynchus kisutch",
+      "emoji": "🪙",
+      "category": "pelagic",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5139610/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/53692",
+      "natural_history": "Smaller than Chinook but an acrobatic fighter known for aerial leaps. Bright silver in the ocean with small black spots on the back and UPPER lobe of the tail only (Chinook have spots on both lobes). White gums on the lower jaw (Chinook have black gums). Central California Coho Salmon (south of Punta Gorda) are listed as ENDANGERED under both federal and state ESA. Historically present in Monterey Bay tributaries including Scott Creek, Waddell Creek, and San Lorenzo River. Populations have declined catastrophically. RETENTION IS PROHIBITED in all California ocean fisheries — any coho caught must be released immediately with minimal handling.",
+      "max_size": "38 inches, 31 lbs",
+      "max_age": "4 years (typically 3)",
+      "depth_range_ft": [
+        10,
+        150
+      ],
+      "fishing_zone": "open ocean / pelagic (CATCH AND RELEASE ONLY)",
+      "best_spots": [
+        "Encountered incidentally while salmon fishing — must release immediately"
+      ],
+      "cdfw_bag_limit": "ZERO — retention prohibited in all California ocean fisheries",
+      "cdfw_size_min": "N/A — may not be retained",
+      "cdfw_season": "No open retention season — ESA-listed endangered species in Central CA",
+      "cdfw_always_open": false,
+      "months_best": [],
+      "gear": {
+        "rod": "N/A — not a legal target. Use same salmon trolling/mooching gear.",
+        "reel": "N/A",
+        "line": "N/A",
+        "leader": "N/A",
+        "hook": "Barbless hooks required while salmon fishing — aids in safe coho release",
+        "bait_or_lure": "N/A — not a legal target"
+      },
+      "tips": "CANNOT BE RETAINED — endangered species. Learn to distinguish from Chinook BEFORE your salmon trip. Key ID: coho have white gums and spots only on the upper tail lobe. Chinook have black gums and spots on both tail lobes. If you hook a coho, bring it alongside quickly and release without removing from water if possible. The barbless hook requirement while salmon fishing exists partly to facilitate safe coho release."
+    },
+    {
+      "key": "garibaldi",
+      "common_name": "Garibaldi",
+      "scientific_name": "Hypsypops rubicundus",
+      "emoji": "🟠",
+      "category": "fish_protected",
+      "image_url": "https://static.inaturalist.org/photos/410429697/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/53693",
+      "natural_history": "California's official state marine fish — brilliant orange as adults, blue-spotted as juveniles. The largest damselfish in the western hemisphere, reaching 15 inches. Fiercely territorial — males aggressively guard nests of eggs laid on carefully tended patches of algae. Found over rocky reefs and kelp from 5–100 ft. More common south of Point Conception but increasingly seen in Monterey Bay in warm-water years. FULLY PROTECTED — it is illegal to take or possess garibaldi in California. Even touching or disturbing them can result in fines.",
+      "max_size": "15 inches, 2 lbs",
+      "max_age": "25 years",
+      "depth_range_ft": [
+        5,
+        100
+      ],
+      "habitat": "Rocky reef, kelp forest",
+      "legal_status": "FULLY PROTECTED — California State Marine Fish. May not be taken or possessed.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "tips": "Look, don't touch. Brilliant orange adults are unmistakable. Juveniles are iridescent blue with orange spots — one of the most beautiful fish on the reef."
+    },
+    {
+      "key": "giant_sea_bass",
+      "common_name": "Giant Sea Bass",
+      "scientific_name": "Stereolepis gigas",
+      "emoji": "🐋",
+      "category": "fish_protected",
+      "image_url": "https://static.inaturalist.org/photos/8768054/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/52169",
+      "natural_history": "The largest bony fish in the kelp forest ecosystem — can exceed 7 ft and 560 lbs. Dark gray to black body, sometimes with dark spots. Slow-growing, long-lived, and critically depleted by overfishing. Population is slowly recovering since harvest was banned in 1982. Found over rocky reefs and kelp beds from 15–150 ft. Aggregates for spawning in summer. Increasingly seen in Monterey Bay kelp during warm-water years. A keystone species and conservation success story in progress.",
+      "max_size": "90 inches, 563 lbs",
+      "max_age": "75+ years",
+      "depth_range_ft": [
+        15,
+        150
+      ],
+      "habitat": "Rocky reef, kelp forest",
+      "legal_status": "FULLY PROTECTED since 1982 — may not be taken or possessed in California.",
+      "months_best": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "tips": "An unforgettable sight while diving — gentle giants that may approach divers closely. Report sightings to help track recovery. If hooked accidentally, release immediately with minimal handling."
+    },
+    {
+      "key": "wolf_eel",
+      "common_name": "Wolf-Eel",
+      "scientific_name": "Anarrhichthys ocellatus",
+      "emoji": "🐺",
+      "category": "fish_nongame",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88468317/medium.jpeg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/60635",
+      "natural_history": "Not a true eel — actually the largest member of the wolffish family, reaching over 6 ft. Long, sinuous body with powerful crushing jaws designed for eating sea urchins, crabs, and hard-shelled invertebrates. Males have bulbous heads and gray coloring; females are more slender and brown. Mate for life and share a den in rocky crevices. Found 10–700 ft on rocky reef. Docile toward divers despite fearsome appearance — long-term den residents may even accept food from familiar divers. Important predator of purple sea urchins, helping protect kelp forests.",
+      "max_size": "80 inches, 40 lbs",
+      "max_age": "25 years",
+      "depth_range_ft": [
+        10,
+        700
+      ],
+      "habitat": "Rocky reef crevices, boulder fields",
+      "legal_status": "No specific protections but rarely targeted. No bag limit; part of general 20-fish finfish limit.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "tips": "A diver favorite — look for large heads peering from crevices. Mated pairs share dens for years. Do not attempt to hand-feed — those jaws can crush sea urchin spines and will easily break fingers."
+    },
+    {
+      "key": "yelloweye_rockfish",
+      "common_name": "Yelloweye Rockfish",
+      "scientific_name": "Sebastes ruberrimus",
+      "emoji": "🚫",
+      "category": "rockfish_prohibited",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/527424415/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/63695",
+      "natural_history": "Brilliant orange-red body with bright yellow eyes and ragged fin edges. One of the largest and longest-lived rockfish — up to 36 inches and 150+ years old. Found on high-relief rocky structure with crevices and pinnacles from 60–1800 ft. Slow growth and extreme longevity make them highly vulnerable to overfishing. RETENTION IS PROHIBITED in all California recreational fisheries. Can be confused with canary or vermilion rockfish — the key ID marks are the bright yellow iris and ragged fin margins. Must be descended immediately using a descending device if caught.",
+      "max_size": "36 inches, 40 lbs",
+      "max_age": "150+ years",
+      "depth_range_ft": [
+        60,
+        1800
+      ],
+      "habitat": "Deep rocky pinnacles, crevices, high-relief structure",
+      "legal_status": "RETENTION PROHIBITED statewide — must be released immediately with descending device.",
+      "months_best": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "tips": "CANNOT BE KEPT. Learn to ID before fishing deep structure — bright yellow eyes, ragged fin edges. Descend immediately if caught. Avoid fishing near bottom in rocky habitat deeper than 150 ft to minimize encounters."
+    },
+    {
+      "key": "quillback_rockfish",
+      "common_name": "Quillback Rockfish",
+      "scientific_name": "Sebastes maliger",
+      "emoji": "🚫",
+      "category": "rockfish_prohibited",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/565607886/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/63386",
+      "natural_history": "Mottled brown and golden body with tall, sharp dorsal spines — the 'quills' that give it its name. Dark areas with orange-brown spots, light belly. Found on rocky reefs, often solitary perched on rocks or in crevices, from 15–900 ft but usually shallower than 200 ft. Can be confused with copper, china, and black-and-yellow rockfish. RETENTION IS PROHIBITED in all California recreational fisheries since 2023 due to low population estimates. Must be released with descending device.",
+      "max_size": "25 inches, 7 lbs",
+      "max_age": "95 years",
+      "depth_range_ft": [
+        15,
+        900
+      ],
+      "habitat": "Rocky reef crevices, solitary on structure",
+      "legal_status": "RETENTION PROHIBITED statewide — must be released immediately with descending device.",
+      "months_best": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "tips": "CANNOT BE KEPT. Look for tall dorsal spines and mottled brown/gold pattern. Can hybridize with copper rockfish, making ID tricky. Descend immediately if caught."
+    },
+    {
+      "key": "flag_rockfish",
+      "common_name": "Flag Rockfish",
+      "scientific_name": "Sebastes rubrivinctus",
+      "emoji": "🏴",
+      "category": "rockfish_shelf",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254881387/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/317367",
+      "natural_history": "White to pinkish body with bold red vertical bands — looks like a flag, hence the name. One of the most visually striking deep-water rockfish. Found on rocky reefs and mixed bottoms from 150–900 ft. Solitary or in small groups. Uncommon but a memorable catch when it appears. More common in southern California but occasionally caught on deeper Monterey drops.",
+      "max_size": "20 inches, 3.5 lbs",
+      "max_age": "42 years",
+      "depth_range_ft": [
+        150,
+        900
+      ],
+      "fishing_zone": "shelf / deep reef",
+      "best_spots": [
+        "Monterey Canyon East Wall",
+        "Santa Lucia Bank",
+        "Carmel Bay deep"
+      ],
+      "cdfw_bag_limit": "10 fish (RCG Complex aggregate)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Apr 1 – Dec 31",
+      "cdfw_always_open": false,
+      "months_best": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "gear": {
+        "rod": "7 ft heavy conventional or electric, 40–60 lb class",
+        "reel": "Medium-large conventional or electric",
+        "line": "65–80 lb braid, 30 lb fluorocarbon leader",
+        "leader": "25–30 lb fluorocarbon, 24 inches",
+        "hook": "3/0–5/0 j-hooks on dropper rigs",
+        "bait_or_lure": "Squid strips, cut mackerel, or metal jigs on dropper rigs."
+      },
+      "tips": "Red and white bands make it unmistakable — a trophy-quality species photo. Deep-water catch, usually 200+ ft. A beautiful bonus fish on any deep drop."
+    },
+    {
+      "key": "barred_sand_bass",
+      "common_name": "Barred Sand Bass",
+      "scientific_name": "Paralabrax nebulifer",
+      "emoji": "🏖️",
+      "category": "nearshore",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/449004516/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/108552",
+      "natural_history": "Gray-green body with dark vertical bars along the sides. Found over sandy bottoms near rocky structure, kelp edges, and breakwaters from 10–200 ft. Aggregates in large spawning groups over sandy flats in summer. More common in southern California but occasionally caught in Monterey Bay. Combined 5-fish bag limit with kelp bass and spotted sand bass; a 4-fish sub-bag limit for barred sand bass was implemented in 2025 to protect spawning populations.",
+      "max_size": "26 inches, 13 lbs",
+      "max_age": "33 years",
+      "depth_range_ft": [
+        10,
+        200
+      ],
+      "fishing_zone": "sandy / rocky structure",
+      "best_spots": [
+        "Monterey Bay sandy structure",
+        "Moss Landing",
+        "Carmel Bay"
+      ],
+      "cdfw_bag_limit": "5 fish (combined kelp/barred/spotted sand bass; 4-fish sub-limit barred sand bass)",
+      "cdfw_size_min": "14 inches",
+      "cdfw_season": "Year-round",
+      "cdfw_always_open": true,
+      "months_best": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "gear": {
+        "rod": "7 ft medium spinning or baitcasting, 15–20 lb class",
+        "reel": "3000–4000 class spinning or low-profile baitcaster",
+        "line": "20–30 lb braid, 12–15 lb fluorocarbon leader",
+        "leader": "12–15 lb fluorocarbon, 24 inches",
+        "hook": "2/0–4/0 for swimbaits; 1/0–3/0 for live bait",
+        "bait_or_lure": "Swimbaits, live anchovies or sardines, or squid fished near sandy structure."
+      },
+      "tips": "Uncommon in Monterey — more of a warm-water species. Look for them over sand near rocks or kelp edges. New 4-fish sub-bag limit since 2025."
+    },
+    {
+      "key": "blacksmith",
+      "common_name": "Blacksmith",
+      "scientific_name": "Chromis punctipinnis",
+      "emoji": "🐟",
+      "category": "fish_nongame",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90517218/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/97759",
+      "natural_history": "Dark blue-gray to blue-black damselfish with small dark spots on the rear body and tail. Schools in large aggregations over rocky reef and kelp from 5–150 ft. One of the most abundant fish on southern California reefs, increasingly seen in Monterey during warm-water years. Juveniles are bright blue. Feeds on plankton in the water column. Important prey species for larger fish.",
+      "max_size": "12 inches, 1 lb",
+      "max_age": "15 years",
+      "depth_range_ft": [
+        5,
+        150
+      ],
+      "habitat": "Rocky reef, kelp forest",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "halfmoon",
+      "common_name": "Halfmoon",
+      "scientific_name": "Medialuna californiensis",
+      "emoji": "🌙",
+      "category": "nearshore",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260599189/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/105388",
+      "natural_history": "Blue-gray to dark gray body with a distinctive half-moon shaped tail. Found in kelp forests and over rocky reefs from 5–130 ft. Omnivorous — feeds on algae, sponges, bryozoans, and small invertebrates. Schools in kelp canopy. Can be confused with opaleye — look for the dark blotch at the top of the gill cover on halfmoon. More common south of Point Conception but present in Monterey kelp.",
+      "max_size": "19 inches, 5 lbs",
+      "max_age": "9 years",
+      "depth_range_ft": [
+        5,
+        130
+      ],
+      "habitat": "Kelp forest, rocky reef",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "cdfw_bag_limit": "10 fish (within 20-fish general finfish limit)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Year-round",
+      "cdfw_always_open": true
+    },
+    {
+      "key": "senorita",
+      "common_name": "Señorita",
+      "scientific_name": "Oxyjulis californica",
+      "emoji": "💃",
+      "category": "fish_nongame",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7436934/medium.jpeg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/1316645",
+      "natural_history": "Small, cigar-shaped wrasse with a yellowish-orange body and dark spot at the base of the tail. One of the most abundant fish on California reefs. Acts as a cleaner fish — picks parasites off larger fish including garibaldi, sheephead, and bass. Found in kelp forests and over rocky reef from 5–100 ft. Constantly moving, darting through the water column feeding on tiny crustaceans. Sleeps buried in sand at night. Recently reclassified as Halichoeres californicus.",
+      "max_size": "10 inches, 0.25 lbs",
+      "max_age": "6 years",
+      "depth_range_ft": [
+        5,
+        100
+      ],
+      "habitat": "Kelp forest, mid-water",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "monkeyface_prickleback",
+      "common_name": "Monkeyface Prickleback",
+      "scientific_name": "Cebidichthys violaceus",
+      "emoji": "🐵",
+      "category": "nearshore",
+      "image_url": "https://static.inaturalist.org/photos/336622936/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/61376",
+      "natural_history": "Elongated eel-like fish with a distinctive bony ridge (the 'monkey face') on top of the head. Dark brown to black. Found in rocky intertidal zones and shallow rocky reef from 0–80 ft. Herbivorous as adults — one of the few primarily plant-eating fish in California waters. Commonly caught by 'poke poling' — probing rocky crevices with a stiff pole and baited hook. Excellent eating, especially smoked. A shore fishing specialty in Monterey.",
+      "max_size": "30 inches, 6 lbs",
+      "max_age": "18 years",
+      "depth_range_ft": [
+        0,
+        80
+      ],
+      "habitat": "Rocky intertidal, shallow reef",
+      "months_best": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "fishing_zone": "rocky intertidal / shore",
+      "best_spots": [
+        "Lovers Point rocks",
+        "Pacific Grove tideline",
+        "Cannery Row rocks"
+      ],
+      "cdfw_bag_limit": "10 fish (within 20-fish general finfish limit)",
+      "cdfw_size_min": "None",
+      "cdfw_season": "Year-round",
+      "cdfw_always_open": true,
+      "gear": {
+        "rod": "Poke pole (8–12 ft bamboo or fiberglass rod) or 7 ft medium spinning",
+        "reel": "None for poke pole; 3000 class spinning for rod",
+        "line": "30–40 lb mono on poke pole (6 inch leader wired to tip)",
+        "leader": "Heavy mono or wire, 6–12 inches",
+        "hook": "Size 1–1/0 baitholder hook",
+        "bait_or_lure": "Squid strips, mussels, small pieces of shrimp. Poke into crevices at low tide."
+      },
+      "tips": "Classic California shore fishing technique — poke poling at low tide. Thread squid on a hook wired to the tip of a long pole and probe crevices. Great smoked. Best at very low tides."
+    },
+    {
+      "key": "painted_greenling",
+      "common_name": "Painted Greenling",
+      "scientific_name": "Oxylebius pictus",
+      "emoji": "🎨",
+      "category": "fish_nongame",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/618784853/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/48452",
+      "natural_history": "Small, strikingly patterned fish with alternating red-brown and gray-white vertical bars and bright red body markings. One of the most frequently sighted fish by divers in Monterey Bay. Sits motionless on rocks, kelp holdfasts, and sponges — perfectly camouflaged. Found 5–160 ft on rocky reef. Males guard egg nests. Territorial but not aggressive. Not a sport fish but a kelp forest icon.",
+      "max_size": "10 inches, 0.5 lbs",
+      "max_age": "8 years",
+      "depth_range_ft": [
+        5,
+        160
+      ],
+      "habitat": "Rocky reef, kelp holdfasts, sponges",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "rock_wrasse",
+      "common_name": "Rock Wrasse",
+      "scientific_name": "Halichoeres semicinctus",
+      "emoji": "🐠",
+      "category": "fish_nongame",
+      "image_url": "https://static.inaturalist.org/photos/8749751/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/102081",
+      "natural_history": "Small, colorful wrasse. Males are greenish with a bright blue bar behind the pectoral fin; females are brownish-green. Found over rocky reef and kelp from 5–80 ft. Active swimmer that darts around structure feeding on small invertebrates. Sleeps buried in sand at night like the señorita. More common in southern California but seen in Monterey kelp in warmer years.",
+      "max_size": "15 inches, 1.5 lbs",
+      "max_age": "14 years",
+      "depth_range_ft": [
+        5,
+        80
+      ],
+      "habitat": "Rocky reef, kelp, sand",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "yoy_rockfish",
+      "common_name": "Young-of-Year Rockfish",
+      "scientific_name": "Sebastes spp.",
+      "emoji": "🐣",
+      "category": "fish_nongame",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6796331/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/47762",
+      "natural_history": "Tiny juvenile rockfish (typically 1–4 inches) representing dozens of species that settle into nearshore habitats each spring and summer after a pelagic larval phase. Found in dense aggregations in kelp canopy, floating kelp mats, and shallow rocky structure from 0–60 ft. Critically important ecological stage — these are the future breeding population. Many species are nearly impossible to tell apart at this size without genetic analysis. Important prey for seabirds, lingcod, salmon, and marine mammals. Protected as part of the RCG Complex regulations.",
+      "max_size": "1–4 inches",
+      "max_age": "< 1 year",
+      "depth_range_ft": [
+        0,
+        60
+      ],
+      "habitat": "Kelp canopy, floating mats, shallow structure",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "red_abalone",
+      "common_name": "Red Abalone",
+      "scientific_name": "Haliotis rufescens",
+      "emoji": "🔴",
+      "category": "invertebrate",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3647914/medium.JPG",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/56652",
+      "natural_history": "The largest abalone species in the world — up to 12 inches across. Distinctive red shell with oval respiratory holes and muscular black foot. Found on rocky reef from intertidal to 540 ft. Feeds on drift kelp and attached algae. Commercially and recreationally important historically, but ALL abalone harvest in California has been closed since 2018 due to severe population declines linked to ocean warming, disease, and loss of kelp habitat. Recovery is ongoing.",
+      "max_size": "12 inches (shell)",
+      "max_age": "35 years",
+      "depth_range_ft": [
+        0,
+        540
+      ],
+      "habitat": "Rocky reef, kelp forest",
+      "legal_status": "CLOSED — all recreational abalone harvest prohibited statewide since 2018.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "pink_abalone",
+      "common_name": "Pink Abalone",
+      "scientific_name": "Haliotis corrugata",
+      "emoji": "🩷",
+      "category": "invertebrate",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12114311/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/56678",
+      "natural_history": "Corrugated, rounded shell with a pink interior nacre. Found on rocky reef from 20–200 ft. Historically common in southern California; population severely depleted. Feeds on drift algae. Subject to NOAA Species of Concern listing.",
+      "max_size": "10 inches",
+      "max_age": "35 years",
+      "depth_range_ft": [
+        20,
+        200
+      ],
+      "habitat": "Rocky reef",
+      "legal_status": "CLOSED — all recreational abalone harvest prohibited statewide since 2018.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "green_abalone",
+      "common_name": "Green Abalone",
+      "scientific_name": "Haliotis fulgens",
+      "emoji": "💚",
+      "category": "invertebrate",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6515542/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/56653",
+      "natural_history": "Olive-green to reddish-brown shell with blue-green interior nacre. Found on rocky reef from intertidal to 60 ft in southern California. Feeds primarily on giant kelp and other algae. Population severely impacted by withering syndrome disease.",
+      "max_size": "10 inches",
+      "max_age": "30 years",
+      "depth_range_ft": [
+        0,
+        60
+      ],
+      "habitat": "Rocky reef, shallow kelp",
+      "legal_status": "CLOSED — all recreational abalone harvest prohibited statewide since 2018.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "white_abalone",
+      "common_name": "White Abalone",
+      "scientific_name": "Haliotis sorenseni",
+      "emoji": "⬜",
+      "category": "invertebrate",
+      "image_url": "https://static.inaturalist.org/photos/28879909/medium.jpeg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/56679",
+      "natural_history": "Deep-bodied shell with thin, oval shape and pale white to reddish exterior. Found on deep rocky reef from 80–200 ft. The rarest abalone species — listed as FEDERALLY ENDANGERED under the Endangered Species Act since 2001. Population crashed due to overfishing in the 1970s. Captive breeding programs at multiple facilities are working to restore wild populations.",
+      "max_size": "10 inches",
+      "max_age": "35 years",
+      "depth_range_ft": [
+        80,
+        200
+      ],
+      "habitat": "Deep rocky reef",
+      "legal_status": "FEDERALLY ENDANGERED — ESA listed since 2001. May not be taken or possessed.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "black_abalone",
+      "common_name": "Black Abalone",
+      "scientific_name": "Haliotis cracherodii",
+      "emoji": "⚫",
+      "category": "invertebrate",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27282149/medium.jpeg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/56649",
+      "natural_history": "Smooth, dark blue-black shell. Found in the high intertidal zone on exposed rocky coastline from 0–20 ft. Listed as FEDERALLY ENDANGERED since 2009 after catastrophic declines from withering syndrome. Once the most abundant intertidal abalone. Rocky intertidal populations along the California coast are still well below historical levels.",
+      "max_size": "8 inches",
+      "max_age": "30 years",
+      "depth_range_ft": [
+        0,
+        20
+      ],
+      "habitat": "Rocky intertidal, wave-exposed",
+      "legal_status": "FEDERALLY ENDANGERED — ESA listed since 2009. May not be taken or possessed.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "purple_sea_urchin",
+      "common_name": "Purple Sea Urchin",
+      "scientific_name": "Strongylocentrotus purpuratus",
+      "emoji": "🟣",
+      "category": "invertebrate",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338665145/medium.jpeg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/48035",
+      "natural_history": "Bright purple spines covering a round test (shell) up to 4 inches across. The most abundant sea urchin in California. Found from intertidal to 525 ft on rocky substrate. Feeds on drift kelp and attached algae. Population explosion following the loss of key predators (sunflower stars to wasting disease, sea otters historically) has created 'urchin barrens' — vast areas of reef stripped of all kelp. A major conservation concern in Monterey Bay. Some kelp restoration projects involve removing excess purple urchins.",
+      "max_size": "4 inches (test diameter)",
+      "max_age": "70 years",
+      "depth_range_ft": [
+        0,
+        525
+      ],
+      "habitat": "Rocky reef, intertidal to deep",
+      "legal_status": "No recreational limit. Increasingly targeted for removal in kelp restoration projects.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "red_sea_urchin",
+      "common_name": "Red Sea Urchin",
+      "scientific_name": "Mesocentrotus franciscanus",
+      "emoji": "🔴",
+      "category": "invertebrate",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/484400937/medium.jpeg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/992313",
+      "natural_history": "The largest sea urchin in the world — spines can reach 3 inches on a test up to 7 inches across. Dark red to burgundy. Found on rocky reef from 10–300 ft, usually in kelp forests. Commercially harvested for uni (roe) — supports a significant fishery in Monterey. Important grazer that, unlike purple urchins, tends to stay in balance with kelp when predator populations are healthy.",
+      "max_size": "7 inches (test), 10+ inch spine spread",
+      "max_age": "200+ years",
+      "depth_range_ft": [
+        10,
+        300
+      ],
+      "habitat": "Rocky reef, kelp forest",
+      "legal_status": "Sport harvest: 35 urchins daily, no size limit. Commercial fishery significant in Monterey.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "green_sea_urchin",
+      "common_name": "Green Sea Urchin",
+      "scientific_name": "Strongylocentrotus droebachiensis",
+      "emoji": "🟢",
+      "category": "invertebrate",
+      "image_url": "https://static.inaturalist.org/photos/88054286/medium.jpeg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/120070",
+      "natural_history": "Small, greenish urchin with relatively short spines. Found from intertidal to 3600 ft on various substrates. More common in cold northern waters — present but less abundant than purple and red urchins in Monterey. Important grazer on kelp and algae. Also harvested for uni in some regions.",
+      "max_size": "3.5 inches (test)",
+      "max_age": "25 years",
+      "depth_range_ft": [
+        0,
+        3600
+      ],
+      "habitat": "Rocky reef, various substrates",
+      "legal_status": "No specific sport limit in California; part of general invertebrate regulations.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "kellets_whelk",
+      "common_name": "Kellet's Whelk",
+      "scientific_name": "Kelletia kelletii",
+      "emoji": "🐚",
+      "category": "invertebrate",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2305775/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/125663",
+      "natural_history": "Large predatory sea snail with a tan to cream spiral shell up to 7 inches. Found on rocky reefs from 10–230 ft. Important predator and scavenger — aggregates in large groups to feed on dead fish and invertebrates. Range has expanded northward into Monterey Bay with warming waters. Commercially harvested for food markets. Males fight for mating access.",
+      "max_size": "7 inches (shell)",
+      "max_age": "15 years",
+      "depth_range_ft": [
+        10,
+        230
+      ],
+      "habitat": "Rocky reef",
+      "legal_status": "35 per day recreational limit; no size minimum.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "wavy_turban_snail",
+      "common_name": "Wavy Turban Snail",
+      "scientific_name": "Megastraea undosa",
+      "emoji": "🌀",
+      "category": "invertebrate",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/359908282/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/121180",
+      "natural_history": "Large turban-shaped shell (up to 6 inches) with distinctive wavy ridges. Brown exterior with a pearly interior. Found on rocky reef from intertidal to 80 ft. Herbivorous — feeds on various algae. Important food source for sea otters and humans historically. An iconic snail of the central California rocky intertidal.",
+      "max_size": "6 inches",
+      "max_age": "20+ years",
+      "depth_range_ft": [
+        0,
+        80
+      ],
+      "habitat": "Rocky reef, intertidal",
+      "legal_status": "35 per day recreational limit; no size minimum.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "norris_top_snail",
+      "common_name": "Norris's Top Snail",
+      "scientific_name": "Norrisia norrisi",
+      "emoji": "🟤",
+      "category": "invertebrate",
+      "image_url": "https://static.inaturalist.org/photos/2750119/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/428550",
+      "natural_history": "Medium-sized snail with a smooth, glossy brown shell and bright orange-red foot. Found on rocky reefs and in kelp forests from 10–200 ft. Feeds on coralline algae and kelp. The vivid orange foot is distinctive among California marine snails. Named after Kenneth Norris, pioneering marine biologist at UC Santa Cruz.",
+      "max_size": "3 inches",
+      "max_age": "15 years",
+      "depth_range_ft": [
+        10,
+        200
+      ],
+      "habitat": "Rocky reef, kelp forest",
+      "legal_status": "Part of general invertebrate regulations. 35 per day limit for marine snails.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "keyhole_limpet",
+      "common_name": "Rough Keyhole Limpet",
+      "scientific_name": "Diodora aspera",
+      "emoji": "🕳️",
+      "category": "invertebrate",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2126/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/48645",
+      "natural_history": "Cone-shaped shell with a distinctive oval hole (keyhole) at the apex for water circulation. Gray-white shell with radiating ridges. Found on rocky substrate from intertidal to 80 ft. Feeds on sponges, bryozoans, and encrusting organisms. The 'keyhole' at the top is used to expel water from the gills — a unique adaptation among limpets.",
+      "max_size": "3 inches",
+      "max_age": "10+ years",
+      "depth_range_ft": [
+        0,
+        80
+      ],
+      "habitat": "Rocky reef, intertidal",
+      "legal_status": "Part of general invertebrate regulations.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "giant_keyhole_limpet",
+      "common_name": "Giant Keyhole Limpet",
+      "scientific_name": "Megathura crenulata",
+      "emoji": "⭕",
+      "category": "invertebrate",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2126/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/48645",
+      "natural_history": "The largest keyhole limpet in the world — up to 5 inches. The fleshy mantle almost completely covers the shell in living animals, making it look like a dark blob on the reef. Found on rocky substrate from 5–120 ft. Feeds on encrusting organisms and algae. The shell is rarely visible because the mantle extends over it. Source of keyhole limpet hemocyanin (KLH), used in cancer immunotherapy research.",
+      "max_size": "5 inches (mantle up to 12 inches)",
+      "max_age": "Unknown",
+      "depth_range_ft": [
+        5,
+        120
+      ],
+      "habitat": "Rocky reef",
+      "legal_status": "Part of general invertebrate regulations.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "owl_limpet",
+      "common_name": "Owl Limpet",
+      "scientific_name": "Lottia gigantea",
+      "emoji": "🦉",
+      "category": "invertebrate",
+      "image_url": "https://static.inaturalist.org/photos/29487487/medium.jpeg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/53750",
+      "natural_history": "Large limpet (up to 4 inches) with an oval, slightly domed shell marked with dark brown and white patterns that can resemble an owl's face. Found in the high intertidal zone on exposed rocky shores. Territorial — each limpet maintains a home 'garden' of algae that it defends from other grazers. One of the largest limpets in North America. Overharvested historically for food.",
+      "max_size": "4 inches",
+      "max_age": "15+ years",
+      "depth_range_ft": [
+        0,
+        5
+      ],
+      "habitat": "Rocky intertidal, high zone",
+      "legal_status": "Protected in many areas. Size limit: shells must be 3+ inches to harvest where legal.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "california_sea_cucumber",
+      "common_name": "California Sea Cucumber",
+      "scientific_name": "Apostichopus californicus",
+      "emoji": "🥒",
+      "category": "invertebrate",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/69280081/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/202640",
+      "natural_history": "Large, reddish-brown to dark brown cylindrical body with pointed papillae (tube feet) across the body surface. Can reach 20 inches. Found on rocky reef and soft bottoms from intertidal to 800 ft. Deposit feeder — vacuums up organic material from the seafloor. Important recycler of nutrients. When stressed, can eviscerate (expel internal organs) as a defense mechanism and regenerate them later.",
+      "max_size": "20 inches",
+      "max_age": "12 years",
+      "depth_range_ft": [
+        0,
+        800
+      ],
+      "habitat": "Rocky reef, soft bottom",
+      "legal_status": "Commercial fishery; recreational: 25 per day.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "spiny_lobster",
+      "common_name": "California Spiny Lobster",
+      "scientific_name": "Panulirus interruptus",
+      "emoji": "🦞",
+      "category": "invertebrate",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107696794/medium.jpeg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/61371",
+      "natural_history": "Reddish-brown body with prominent spiny antennae — no claws (unlike Atlantic lobster). Found in rocky reef crevices and kelp forests from 5–200 ft. Nocturnal — emerges at night to feed on urchins, mussels, and other invertebrates. More common south of Point Conception but occasionally found in Monterey Bay during warm-water years. Season runs Oct–March. Requires a Spiny Lobster Report Card. Minimum carapace size 3.25 inches.",
+      "max_size": "24 inches, 16 lbs",
+      "max_age": "50+ years",
+      "depth_range_ft": [
+        5,
+        200
+      ],
+      "habitat": "Rocky reef crevices, kelp forest",
+      "legal_status": "Season: first Sat in Oct – first Wed after March 15. Bag limit: 7. Min size: 3.25 inch carapace. Report Card required ($12.70).",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "rock_scallop",
+      "common_name": "Giant Rock Scallop",
+      "scientific_name": "Crassadoma gigantea",
+      "emoji": "🐚",
+      "category": "invertebrate",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29388177/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/54526",
+      "natural_history": "Large bivalve (up to 10 inches) that cements itself to rocky substrate. Shell often encrusted with sponges, coralline algae, and other organisms making it nearly invisible. Orange mantle tissue visible when shell is open, with bright blue eyes along the mantle edge. Found on rocky reefs from 10–250 ft. Commercially prized for the large adductor muscle. Harvested by divers.",
+      "max_size": "10 inches (shell)",
+      "max_age": "50+ years",
+      "depth_range_ft": [
+        10,
+        250
+      ],
+      "habitat": "Rocky reef, cemented to substrate",
+      "legal_status": "Recreational limit: 10 per day. No minimum size.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "sunflower_star",
+      "common_name": "Sunflower Sea Star",
+      "scientific_name": "Pycnopodia helianthoides",
+      "emoji": "🌻",
+      "category": "invertebrate",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/241416331/medium.png",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/47673",
+      "natural_history": "The largest sea star in the world — up to 3.3 ft across with 16–24 arms. Soft body, fast-moving (for a sea star), and voracious predator of sea urchins, snails, and bivalves. Was once one of the most common large invertebrates on the Pacific coast. Population collapsed by >90% starting in 2013 due to sea star wasting disease (SSWD). Now listed as Critically Endangered by IUCN. Their loss triggered purple urchin population explosions and subsequent kelp forest destruction. Recovery efforts and captive breeding programs are underway.",
+      "max_size": "3.3 ft diameter",
+      "max_age": "65 years",
+      "depth_range_ft": [
+        0,
+        1400
+      ],
+      "habitat": "Rocky reef, kelp forest, soft bottom",
+      "legal_status": "CRITICALLY ENDANGERED — IUCN Red List. Petition for ESA listing submitted. Do not touch or disturb.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "strawberry_anemone",
+      "common_name": "Strawberry Anemone",
+      "scientific_name": "Corynactis californica",
+      "emoji": "🍓",
+      "category": "invertebrate",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10234471/medium.jpeg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/124499",
+      "natural_history": "Tiny but spectacularly colorful — bright red, orange, pink, or lavender with white-tipped tentacles. Not a true anemone — actually a corallimorpharian (related to corals). Forms dense carpets of hundreds to thousands of individuals on rocky surfaces from 5–200 ft. Each colony is genetically identical clones. One of the most photographed invertebrates in Monterey Bay. Carnivorous — catches tiny plankton with stinging tentacles.",
+      "max_size": "1 inch (individual polyp)",
+      "max_age": "Unknown",
+      "depth_range_ft": [
+        5,
+        200
+      ],
+      "habitat": "Rocky reef walls, overhangs",
+      "legal_status": "No harvest regulations; not collected.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "aggregating_anemone",
+      "common_name": "Aggregating Anemone",
+      "scientific_name": "Anthopleura elegantissima",
+      "emoji": "🪸",
+      "category": "invertebrate",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10551/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/49051",
+      "natural_history": "Small green anemone (up to 3 inches) that forms dense aggregating colonies on rocky intertidal surfaces. Green color comes from symbiotic algae (zooxanthellae) living in the tissues. Colonies compete for space through warfare — workers on colony borders sting neighboring colonies. Can survive exposure at low tide by retracting tentacles and covering themselves with shell fragments and sand. One of the most abundant and ecologically important intertidal animals on the Pacific coast.",
+      "max_size": "3 inches (column diameter)",
+      "max_age": "100+ years (colonies)",
+      "depth_range_ft": [
+        0,
+        60
+      ],
+      "habitat": "Rocky intertidal, shallow reef",
+      "legal_status": "No harvest regulations.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "giant_plumose_anemone",
+      "common_name": "Giant Plumose Anemone",
+      "scientific_name": "Metridium farcimen",
+      "emoji": "🤍",
+      "category": "invertebrate",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1672886/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/51812",
+      "natural_history": "Largest anemone in Monterey Bay — column up to 3 ft tall with a crown of thousands of fine, feathery white tentacles. Usually white but can be orange or brown. Found on pilings, rocky walls, and deep reef from 5–300 ft. Filter feeder — catches tiny plankton with its thousands of tentacles. Often found on dock pilings in Monterey Harbor. An iconic Monterey dive sight.",
+      "max_size": "3 ft tall, 1 ft crown diameter",
+      "max_age": "100+ years",
+      "depth_range_ft": [
+        5,
+        300
+      ],
+      "habitat": "Rocky walls, pilings, deep reef",
+      "legal_status": "No harvest regulations.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "cup_coral",
+      "common_name": "Orange Cup Coral",
+      "scientific_name": "Balanophyllia elegans",
+      "emoji": "🧡",
+      "category": "invertebrate",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6433781/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/51799",
+      "natural_history": "Small, solitary stony coral (up to 1 inch) with bright orange tentacles that extend to feed. Each individual builds its own small calcium carbonate cup. Found on rocky surfaces from intertidal to 250 ft, often in shaded areas and overhangs. One of the few hard corals in cold-water California. Broods its larvae internally (unusual for corals). Common on Monterey reefs.",
+      "max_size": "0.5 inch (polyp diameter)",
+      "max_age": "10+ years",
+      "depth_range_ft": [
+        0,
+        250
+      ],
+      "habitat": "Rocky reef, shaded walls",
+      "legal_status": "No harvest regulations.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "california_hydrocoral",
+      "common_name": "California Hydrocoral",
+      "scientific_name": "Stylaster californicus",
+      "emoji": "🪸",
+      "category": "invertebrate",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4051/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/51793",
+      "natural_history": "Branching purple to pink hard coral-like colonies up to 12 inches across. Not a true coral — a colonial hydrozoan related to fire corals. Found on exposed rocky reef from 30–300 ft, usually in areas with strong current. PROTECTED — may not be collected or damaged. One of the signature species of Carmel Bay's deep pinnacles. Slow-growing and fragile.",
+      "max_size": "12 inches (colony)",
+      "max_age": "50+ years",
+      "depth_range_ft": [
+        30,
+        300
+      ],
+      "habitat": "Exposed rocky reef, current-swept pinnacles",
+      "legal_status": "PROTECTED — may not be taken, possessed, or damaged. Do not touch or anchor on.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "tunicates",
+      "common_name": "Lightbulb Tunicate",
+      "scientific_name": "Clavelina huntsmani",
+      "emoji": "💡",
+      "category": "invertebrate",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/143349500/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/51984",
+      "natural_history": "Translucent, club-shaped colonial tunicate with visible internal structures — looks like a tiny lightbulb. Pink to lavender body, often in clusters. Representative of the many tunicate species found in Monterey Bay. Tunicates are actually our closest invertebrate relatives (chordates). Filter feeders that draw water through an incurrent siphon and expel through an excurrent siphon. Found on pilings, rocks, and kelp holdfasts from 5–200 ft.",
+      "max_size": "2 inches (individual zooid)",
+      "max_age": "1–3 years",
+      "depth_range_ft": [
+        5,
+        200
+      ],
+      "habitat": "Rocky reef, pilings, kelp holdfasts",
+      "legal_status": "No harvest regulations.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "giant_kelp",
+      "common_name": "Giant Kelp",
+      "scientific_name": "Macrocystis pyrifera",
+      "emoji": "🌿",
+      "category": "algae",
+      "image_url": "https://static.inaturalist.org/photos/187358921/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/124748",
+      "natural_history": "The largest and fastest-growing marine alga in the world — can grow 2 ft per day and reach 175 ft from holdfast to canopy. Forms the foundation of the kelp forest ecosystem, providing habitat, food, and shelter for hundreds of species. Anchored to rocky substrate by a root-like holdfast. Gas-filled bladders (pneumatocysts) at the base of each blade keep the fronds buoyant. Commercially harvested for algin (used in food, cosmetics, pharmaceuticals). The defining species of Monterey Bay's underwater landscape.",
+      "max_size": "175 ft (length)",
+      "max_age": "7 years (individual frond ~6 months)",
+      "depth_range_ft": [
+        15,
+        130
+      ],
+      "habitat": "Rocky reef with hard substrate",
+      "legal_status": "Recreational harvest: 10 lbs wet weight daily. Commercial harvest regulated by CDFW.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "bull_kelp",
+      "common_name": "Bull Kelp",
+      "scientific_name": "Nereocystis luetkeana",
+      "emoji": "🎈",
+      "category": "algae",
+      "image_url": "https://static.inaturalist.org/photos/289360664/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/120499",
+      "natural_history": "Annual kelp with a single long stipe (stem) topped by a large round float (pneumatocyst) from which dozens of long blades trail. Can grow to 120 ft in a single season. Dominant canopy kelp in northern California; found alongside giant kelp in Monterey. The hollow stipe and float are iconic — bull kelp floats washed ashore are familiar beachcombing finds. Important habitat species, especially where giant kelp is sparse.",
+      "max_size": "120 ft",
+      "max_age": "1 year (annual)",
+      "depth_range_ft": [
+        15,
+        90
+      ],
+      "habitat": "Rocky reef, exposed coast",
+      "legal_status": "Recreational harvest: 10 lbs wet weight daily.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "southern_sea_palm",
+      "common_name": "Southern Sea Palm",
+      "scientific_name": "Eisenia arborea",
+      "emoji": "🌴",
+      "category": "algae",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177477959/medium.jpeg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/125879",
+      "natural_history": "Distinctive kelp with a woody stipe and a palm-tree-like crown of flattened blades. Perennial — can live many years. Found on rocky reef from 15–120 ft, often on exposed headlands and pinnacles with strong surge. Important structural habitat in areas too deep or too wave-exposed for giant kelp canopy. Provides shade and shelter for understory organisms.",
+      "max_size": "5 ft",
+      "max_age": "10+ years",
+      "depth_range_ft": [
+        15,
+        120
+      ],
+      "habitat": "Rocky reef, wave-exposed",
+      "legal_status": "Recreational harvest: 10 lbs wet weight daily.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "pterygophora",
+      "common_name": "Pterygophora (Stalked Kelp)",
+      "scientific_name": "Pterygophora californica",
+      "emoji": "🌾",
+      "category": "algae",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5533339/medium.jpeg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/124146",
+      "natural_history": "Perennial kelp with a single woody stipe and alternating flat blades along its length — looks like a feather or fern. Found as an understory kelp beneath giant kelp canopy from 20–120 ft. Long-lived and slow-growing. Important structural habitat. Old stipes become woody and can persist for years after the plant dies.",
+      "max_size": "6 ft",
+      "max_age": "17 years",
+      "depth_range_ft": [
+        20,
+        120
+      ],
+      "habitat": "Rocky reef, kelp forest understory",
+      "legal_status": "Recreational harvest: 10 lbs wet weight daily.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "laminaria",
+      "common_name": "Laminaria (Oar Kelp)",
+      "scientific_name": "Laminaria setchellii",
+      "emoji": "🟫",
+      "category": "algae",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89473/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/81896",
+      "natural_history": "Medium-sized kelp with a single stiff stipe and a broad, flat blade at the top — resembles an oar. Found on rocky substrate in the low intertidal to 70 ft. Perennial species that forms dense beds in exposed areas. One of several Laminaria species on the Pacific coast. Provides important understory habitat.",
+      "max_size": "4 ft",
+      "max_age": "10+ years",
+      "depth_range_ft": [
+        0,
+        70
+      ],
+      "habitat": "Rocky reef, low intertidal to subtidal",
+      "legal_status": "Recreational harvest: 10 lbs wet weight daily.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "sargassum",
+      "common_name": "Sargassum (Japanese Wireweed)",
+      "scientific_name": "Sargassum muticum",
+      "emoji": "🟡",
+      "category": "algae",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/597685370/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/130177",
+      "natural_history": "INVASIVE non-native brown alga from Japan — introduced to California in the 1970s via oyster imports. Bushy, highly branched with small air bladders along the branches. Grows rapidly and can form dense thickets from intertidal to 30 ft, outcompeting native algae for space and light. Found throughout Monterey Bay, especially in harbors and calm waters. A management concern in marine protected areas.",
+      "max_size": "10 ft",
+      "max_age": "Annual to short-lived perennial",
+      "depth_range_ft": [
+        0,
+        30
+      ],
+      "habitat": "Rocky substrate, harbors, calm waters",
+      "legal_status": "INVASIVE — no restrictions on removal. Report dense infestations.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "undaria",
+      "common_name": "Undaria (Wakame)",
+      "scientific_name": "Undaria pinnatifida",
+      "emoji": "🥬",
+      "category": "algae",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/590925870/medium.jpg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/68786",
+      "natural_history": "INVASIVE non-native kelp from East Asia — the same species cultivated as 'wakame' seaweed for food. Distinctive midrib and wavy, frilly blade edges with a sporophyll (reproductive structure) at the base of the stipe. Introduced to California harbors via ship ballast water and hull fouling. Found in Monterey Harbor and other sheltered areas from 0–50 ft. Competes with native algae for space.",
+      "max_size": "6 ft",
+      "max_age": "Annual",
+      "depth_range_ft": [
+        0,
+        50
+      ],
+      "habitat": "Harbors, pilings, sheltered rocky substrate",
+      "legal_status": "INVASIVE — no restrictions on removal. Edible — harvest encouraged where present.",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "key": "caulerpa",
+      "common_name": "Caulerpa (Killer Algae)",
+      "scientific_name": "Caulerpa taxifolia",
+      "emoji": "☠️",
+      "category": "algae",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/466138499/medium.jpeg",
+      "inaturalist_url": "https://www.inaturalist.org/taxa/50919",
+      "natural_history": "INVASIVE tropical green alga with feathery, fern-like fronds. Bright green. One of the most destructive marine invasive species in the world — can smother native habitats and is toxic to most herbivores. Eradicated from two locations in southern California (Agua Heedonda Lagoon and Huntington Harbour) in 2000–2006 at a cost of $7 million. NOT currently established in Monterey Bay, but included here for awareness. Report ANY sighting immediately to CDFW.",
+      "max_size": "12 inches (frond height); spreads indefinitely",
+      "max_age": "Perennial via fragmentation",
+      "depth_range_ft": [
+        0,
+        30
+      ],
+      "habitat": "Soft bottom, lagoons",
+      "legal_status": "ERADICATED from California. Report any suspected sighting immediately: (858) 467-4218 or caulerpa@wildlife.ca.gov",
+      "months_best": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  ]
+}

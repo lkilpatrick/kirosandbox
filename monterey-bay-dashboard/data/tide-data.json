@@ -1,0 +1,162 @@
+{
+  "monterey-harbor": [
+    {
+      "timestamp": "2024-01-15T08:00:00Z",
+      "nextHigh": "2024-01-15T10:24:00Z",
+      "nextLow": "2024-01-15T16:42:00Z",
+      "tideTrend": "rising"
+    },
+    {
+      "timestamp": "2024-01-15T14:00:00Z",
+      "nextHigh": "2024-01-15T22:48:00Z",
+      "nextLow": "2024-01-15T16:42:00Z",
+      "tideTrend": "falling"
+    },
+    {
+      "timestamp": "2024-01-15T20:00:00Z",
+      "nextHigh": "2024-01-15T22:48:00Z",
+      "nextLow": "2024-01-16T05:12:00Z",
+      "tideTrend": "rising"
+    },
+    {
+      "timestamp": "2024-01-16T08:00:00Z",
+      "nextHigh": "2024-01-16T11:06:00Z",
+      "nextLow": "2024-01-16T17:18:00Z",
+      "tideTrend": "rising"
+    },
+    {
+      "timestamp": "2024-01-16T14:00:00Z",
+      "nextHigh": "2024-01-16T23:24:00Z",
+      "nextLow": "2024-01-16T17:18:00Z",
+      "tideTrend": "falling"
+    }
+  ],
+  "breakwater": [
+    {
+      "timestamp": "2024-01-15T08:00:00Z",
+      "nextHigh": "2024-01-15T10:18:00Z",
+      "nextLow": "2024-01-15T16:36:00Z",
+      "tideTrend": "rising"
+    },
+    {
+      "timestamp": "2024-01-15T14:00:00Z",
+      "nextHigh": "2024-01-15T22:42:00Z",
+      "nextLow": "2024-01-15T16:36:00Z",
+      "tideTrend": "falling"
+    },
+    {
+      "timestamp": "2024-01-15T20:00:00Z",
+      "nextHigh": "2024-01-15T22:42:00Z",
+      "nextLow": "2024-01-16T05:06:00Z",
+      "tideTrend": "rising"
+    },
+    {
+      "timestamp": "2024-01-16T08:00:00Z",
+      "nextHigh": "2024-01-16T11:00:00Z",
+      "nextLow": "2024-01-16T17:12:00Z",
+      "tideTrend": "rising"
+    },
+    {
+      "timestamp": "2024-01-16T14:00:00Z",
+      "nextHigh": "2024-01-16T23:18:00Z",
+      "nextLow": "2024-01-16T17:12:00Z",
+      "tideTrend": "falling"
+    }
+  ],
+  "stillwater-cove": [
+    {
+      "timestamp": "2024-01-15T08:00:00Z",
+      "nextHigh": "2024-01-15T10:30:00Z",
+      "nextLow": "2024-01-15T16:48:00Z",
+      "tideTrend": "rising"
+    },
+    {
+      "timestamp": "2024-01-15T14:00:00Z",
+      "nextHigh": "2024-01-15T22:54:00Z",
+      "nextLow": "2024-01-15T16:48:00Z",
+      "tideTrend": "falling"
+    },
+    {
+      "timestamp": "2024-01-15T20:00:00Z",
+      "nextHigh": "2024-01-15T22:54:00Z",
+      "nextLow": "2024-01-16T05:18:00Z",
+      "tideTrend": "rising"
+    },
+    {
+      "timestamp": "2024-01-16T08:00:00Z",
+      "nextHigh": "2024-01-16T11:12:00Z",
+      "nextLow": "2024-01-16T17:24:00Z",
+      "tideTrend": "rising"
+    },
+    {
+      "timestamp": "2024-01-16T14:00:00Z",
+      "nextHigh": "2024-01-16T23:30:00Z",
+      "nextLow": "2024-01-16T17:24:00Z",
+      "tideTrend": "falling"
+    }
+  ],
+  "sand-city": [
+    {
+      "timestamp": "2024-01-15T08:00:00Z",
+      "nextHigh": "2024-01-15T10:12:00Z",
+      "nextLow": "2024-01-15T16:30:00Z",
+      "tideTrend": "rising"
+    },
+    {
+      "timestamp": "2024-01-15T14:00:00Z",
+      "nextHigh": "2024-01-15T22:36:00Z",
+      "nextLow": "2024-01-15T16:30:00Z",
+      "tideTrend": "falling"
+    },
+    {
+      "timestamp": "2024-01-15T20:00:00Z",
+      "nextHigh": "2024-01-15T22:36:00Z",
+      "nextLow": "2024-01-16T05:00:00Z",
+      "tideTrend": "rising"
+    },
+    {
+      "timestamp": "2024-01-16T08:00:00Z",
+      "nextHigh": "2024-01-16T10:54:00Z",
+      "nextLow": "2024-01-16T17:06:00Z",
+      "tideTrend": "rising"
+    },
+    {
+      "timestamp": "2024-01-16T14:00:00Z",
+      "nextHigh": "2024-01-16T23:12:00Z",
+      "nextLow": "2024-01-16T17:06:00Z",
+      "tideTrend": "falling"
+    }
+  ],
+  "moss-landing": [
+    {
+      "timestamp": "2024-01-15T08:00:00Z",
+      "nextHigh": "2024-01-15T10:06:00Z",
+      "nextLow": "2024-01-15T16:24:00Z",
+      "tideTrend": "rising"
+    },
+    {
+      "timestamp": "2024-01-15T14:00:00Z",
+      "nextHigh": "2024-01-15T22:30:00Z",
+      "nextLow": "2024-01-15T16:24:00Z",
+      "tideTrend": "falling"
+    },
+    {
+      "timestamp": "2024-01-15T20:00:00Z",
+      "nextHigh": "2024-01-15T22:30:00Z",
+      "nextLow": "2024-01-16T04:54:00Z",
+      "tideTrend": "rising"
+    },
+    {
+      "timestamp": "2024-01-16T08:00:00Z",
+      "nextHigh": "2024-01-16T10:48:00Z",
+      "nextLow": "2024-01-16T17:00:00Z",
+      "tideTrend": "rising"
+    },
+    {
+      "timestamp": "2024-01-16T14:00:00Z",
+      "nextHigh": "2024-01-16T23:06:00Z",
+      "nextLow": "2024-01-16T17:00:00Z",
+      "tideTrend": "falling"
+    }
+  ]
+}

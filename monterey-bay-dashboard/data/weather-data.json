@@ -1,0 +1,162 @@
+{
+  "monterey-harbor": [
+    {
+      "timestamp": "2024-01-15T08:00:00Z",
+      "summary": "Partly cloudy with marine layer",
+      "airTemp": 54,
+      "marineLayer": true
+    },
+    {
+      "timestamp": "2024-01-15T14:00:00Z",
+      "summary": "Clear skies, marine layer burned off",
+      "airTemp": 62,
+      "marineLayer": false
+    },
+    {
+      "timestamp": "2024-01-15T20:00:00Z",
+      "summary": "Clear evening",
+      "airTemp": 56,
+      "marineLayer": false
+    },
+    {
+      "timestamp": "2024-01-16T08:00:00Z",
+      "summary": "Overcast with low clouds",
+      "airTemp": 52,
+      "marineLayer": true
+    },
+    {
+      "timestamp": "2024-01-16T14:00:00Z",
+      "summary": "Partly sunny",
+      "airTemp": 59,
+      "marineLayer": false
+    }
+  ],
+  "breakwater": [
+    {
+      "timestamp": "2024-01-15T08:00:00Z",
+      "summary": "Foggy with marine layer",
+      "airTemp": 53,
+      "marineLayer": true
+    },
+    {
+      "timestamp": "2024-01-15T14:00:00Z",
+      "summary": "Clearing fog, partly sunny",
+      "airTemp": 61,
+      "marineLayer": false
+    },
+    {
+      "timestamp": "2024-01-15T20:00:00Z",
+      "summary": "Clear and calm",
+      "airTemp": 55,
+      "marineLayer": false
+    },
+    {
+      "timestamp": "2024-01-16T08:00:00Z",
+      "summary": "Dense marine layer",
+      "airTemp": 51,
+      "marineLayer": true
+    },
+    {
+      "timestamp": "2024-01-16T14:00:00Z",
+      "summary": "Mostly cloudy",
+      "airTemp": 58,
+      "marineLayer": true
+    }
+  ],
+  "stillwater-cove": [
+    {
+      "timestamp": "2024-01-15T08:00:00Z",
+      "summary": "Partly cloudy",
+      "airTemp": 55,
+      "marineLayer": true
+    },
+    {
+      "timestamp": "2024-01-15T14:00:00Z",
+      "summary": "Sunny and pleasant",
+      "airTemp": 64,
+      "marineLayer": false
+    },
+    {
+      "timestamp": "2024-01-15T20:00:00Z",
+      "summary": "Clear skies",
+      "airTemp": 57,
+      "marineLayer": false
+    },
+    {
+      "timestamp": "2024-01-16T08:00:00Z",
+      "summary": "Overcast morning",
+      "airTemp": 53,
+      "marineLayer": true
+    },
+    {
+      "timestamp": "2024-01-16T14:00:00Z",
+      "summary": "Partly cloudy afternoon",
+      "airTemp": 61,
+      "marineLayer": false
+    }
+  ],
+  "sand-city": [
+    {
+      "timestamp": "2024-01-15T08:00:00Z",
+      "summary": "Foggy with marine layer",
+      "airTemp": 52,
+      "marineLayer": true
+    },
+    {
+      "timestamp": "2024-01-15T14:00:00Z",
+      "summary": "Clearing, mostly sunny",
+      "airTemp": 60,
+      "marineLayer": false
+    },
+    {
+      "timestamp": "2024-01-15T20:00:00Z",
+      "summary": "Clear evening",
+      "airTemp": 54,
+      "marineLayer": false
+    },
+    {
+      "timestamp": "2024-01-16T08:00:00Z",
+      "summary": "Thick marine layer",
+      "airTemp": 50,
+      "marineLayer": true
+    },
+    {
+      "timestamp": "2024-01-16T14:00:00Z",
+      "summary": "Overcast",
+      "airTemp": 57,
+      "marineLayer": true
+    }
+  ],
+  "moss-landing": [
+    {
+      "timestamp": "2024-01-15T08:00:00Z",
+      "summary": "Dense fog",
+      "airTemp": 51,
+      "marineLayer": true
+    },
+    {
+      "timestamp": "2024-01-15T14:00:00Z",
+      "summary": "Fog clearing, partly sunny",
+      "airTemp": 59,
+      "marineLayer": false
+    },
+    {
+      "timestamp": "2024-01-15T20:00:00Z",
+      "summary": "Clear and cool",
+      "airTemp": 53,
+      "marineLayer": false
+    },
+    {
+      "timestamp": "2024-01-16T08:00:00Z",
+      "summary": "Heavy marine layer",
+      "airTemp": 49,
+      "marineLayer": true
+    },
+    {
+      "timestamp": "2024-01-16T14:00:00Z",
+      "summary": "Cloudy with drizzle",
+      "airTemp": 56,
+      "marineLayer": true
+    }
+  ]
+}

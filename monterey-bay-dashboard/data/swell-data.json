@@ -1,0 +1,162 @@
+{
+  "monterey-harbor": [
+    {
+      "timestamp": "2024-01-15T08:00:00Z",
+      "height": 3.5,
+      "period": 12,
+      "direction": "NW"
+    },
+    {
+      "timestamp": "2024-01-15T14:00:00Z",
+      "height": 4.2,
+      "period": 13,
+      "direction": "NW"
+    },
+    {
+      "timestamp": "2024-01-15T20:00:00Z",
+      "height": 3.0,
+      "period": 11,
+      "direction": "W"
+    },
+    {
+      "timestamp": "2024-01-16T08:00:00Z",
+      "height": 5.5,
+      "period": 14,
+      "direction": "NW"
+    },
+    {
+      "timestamp": "2024-01-16T14:00:00Z",
+      "height": 6.8,
+      "period": 15,
+      "direction": "NW"
+    }
+  ],
+  "breakwater": [
+    {
+      "timestamp": "2024-01-15T08:00:00Z",
+      "height": 2.5,
+      "period": 11,
+      "direction": "NW"
+    },
+    {
+      "timestamp": "2024-01-15T14:00:00Z",
+      "height": 3.0,
+      "period": 12,
+      "direction": "NW"
+    },
+    {
+      "timestamp": "2024-01-15T20:00:00Z",
+      "height": 2.2,
+      "period": 10,
+      "direction": "W"
+    },
+    {
+      "timestamp": "2024-01-16T08:00:00Z",
+      "height": 4.0,
+      "period": 13,
+      "direction": "NW"
+    },
+    {
+      "timestamp": "2024-01-16T14:00:00Z",
+      "height": 5.2,
+      "period": 14,
+      "direction": "NW"
+    }
+  ],
+  "stillwater-cove": [
+    {
+      "timestamp": "2024-01-15T08:00:00Z",
+      "height": 2.8,
+      "period": 12,
+      "direction": "W"
+    },
+    {
+      "timestamp": "2024-01-15T14:00:00Z",
+      "height": 3.5,
+      "period": 13,
+      "direction": "NW"
+    },
+    {
+      "timestamp": "2024-01-15T20:00:00Z",
+      "height": 2.5,
+      "period": 11,
+      "direction": "W"
+    },
+    {
+      "timestamp": "2024-01-16T08:00:00Z",
+      "height": 4.5,
+      "period": 14,
+      "direction": "NW"
+    },
+    {
+      "timestamp": "2024-01-16T14:00:00Z",
+      "height": 5.8,
+      "period": 15,
+      "direction": "NW"
+    }
+  ],
+  "sand-city": [
+    {
+      "timestamp": "2024-01-15T08:00:00Z",
+      "height": 4.5,
+      "period": 13,
+      "direction": "NW"
+    },
+    {
+      "timestamp": "2024-01-15T14:00:00Z",
+      "height": 5.5,
+      "period": 14,
+      "direction": "NW"
+    },
+    {
+      "timestamp": "2024-01-15T20:00:00Z",
+      "height": 3.8,
+      "period": 12,
+      "direction": "W"
+    },
+    {
+      "timestamp": "2024-01-16T08:00:00Z",
+      "height": 7.0,
+      "period": 15,
+      "direction": "NW"
+    },
+    {
+      "timestamp": "2024-01-16T14:00:00Z",
+      "height": 8.5,
+      "period": 16,
+      "direction": "NW"
+    }
+  ],
+  "moss-landing": [
+    {
+      "timestamp": "2024-01-15T08:00:00Z",
+      "height": 4.0,
+      "period": 12,
+      "direction": "NW"
+    },
+    {
+      "timestamp": "2024-01-15T14:00:00Z",
+      "height": 5.0,
+      "period": 13,
+      "direction": "NW"
+    },
+    {
+      "timestamp": "2024-01-15T20:00:00Z",
+      "height": 3.5,
+      "period": 11,
+      "direction": "W"
+    },
+    {
+      "timestamp": "2024-01-16T08:00:00Z",
+      "height": 6.2,
+      "period": 14,
+      "direction": "NW"
+    },
+    {
+      "timestamp": "2024-01-16T14:00:00Z",
+      "height": 7.5,
+      "period": 15,
+      "direction": "NW"
+    }
+  ]
+}
